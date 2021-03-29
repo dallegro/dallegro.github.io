@@ -1,0 +1,1043 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>국립현대미술관</title>
+    <link rel="shortcut icon" href="images/favicon/logo-Favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/colorbox.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.colorbox-min.js"></script>
+    <script src="js/index.js"></script>
+  </head>
+
+  
+<body>
+    <header id="header">
+        <div class="header_inner">
+          <a href="#" class="menu_btn">
+            <b>
+              <span class="line1"></span>
+              <span class="line2"></span>
+              <span class="line3"></span>
+            </b>
+          </a>
+          <a href="#" class="user_btn">회원</a>
+          
+          <a href="#" class="booking_btn"
+            >관람 예약하기<br /><span>EXHIBITION BOOKING</span></a
+          >
+          <h1 class="logo"><a href="index.html">로고</a></h1>
+          <div class="opening_btn">
+            <p>오늘 관람시간<br /><span>TODAY OPEN HOURS</span></p>
+  
+            <table>
+              <tr>
+                <td colspan="3"> 매주 월요일 휴관 </td>
+              </tr>
+              <tr>
+                <th><a href="visit.html">서울</a></a></th>
+                <td>10:00</td>
+                <td>18:00</td>
+              </tr>
+              <tr>
+                <th><a href="visit.html">과천</a></a></th>
+                <td>10:00</td>
+                <td>18:00</td>
+              </tr>
+              <tr>
+                <th><a href="visit.html">덕수궁</a></a></th>
+                <td>휴관</td>
+                <td>휴관</td>
+              </tr>
+              <tr>
+                <th><a href="visit.html">청주</a></a></th>
+                <td>10:00</td>
+                <td>18:00</td>
+              </tr>
+            </table>
+          </div>
+          <a href="#" class="search_btn">검색</a>
+          
+        </div>
+
+        <div id="user_box" class="user_box">
+          <form class="user_form animate" action="#" method="POST">
+            <img
+              src="images/s_images/modal-logo.png"
+              alt="logo"
+              class="user_logo"
+            />
+            <p>
+              국립현대미술관 홈페이지를 방문해주셔서 감사합니다.<br />로그인하시면
+              홈페이지를 보다 편리하게 이용하실 수 있습니다.
+            </p>
+            <div class="user_continer">
+              <input
+                type="email"
+                placeholder="아이디(이메일 주소)를 입력해주세요."
+                name="uname"
+                required
+              />
+              <input type="password" placeholder="****" name="psw" required />
+              <label class="remember">
+                <input
+                  type="checkbox"
+                  checked="checked"
+                  name="remember"
+                />로그인상태 유지
+              </label>
+              <button type="submit">로그인</button>
+              <hr />
+              <span class="psw"><a href="#">비밀번호를 잊으셨나요?</a></span>
+              <span class="join"><a href="#">회원가입</a></span>
+            </div>
+          </form>
+          <div class="bg"></div>
+        </div>
+        <div id="search_box" class="search_box">
+          <form action="#" method="get" class="search_form animate">
+            <input
+              type="search"
+              name="search_str"
+              placeholder="검색어를 입력해주세요."
+            />
+            <button type="submit">검색</button>
+          </form>
+          <div class="bg"></div>
+        </div>
+        <div class="slide_menu">
+          <nav>
+            <h2 class="logo"></h2>
+            <a href="#" class="close"
+              ><img src="images/s_images/nav-Icon-close.png" alt="닫기"
+            /></a>
+            <ul class="gnb">
+              <li class="depth1">
+                <span>관람안내</span>
+                <ul class="depth2">
+                  <li><a href="visit.html">서울</a></a></li>
+                  <li><a href="visit.html">과천</a></a></li>
+                  <li><a href="visit.html">덕수궁</a></a></li>
+                  <li><a href="visit.html">청주</a></a></li>
+                </ul>
+              </li>
+  
+              <li class="depth1">
+                <span>전시</span>
+                <ul class="depth2">
+                  <li><a href="#">현재 전시 안내</a></li>
+                  <li><a href="#">예정 전시 안내</a></li>
+                </ul>
+              </li>
+              <li class="depth1">
+                <span>교육 · 행사</span>
+                <ul class="depth2">
+                  <li><a href="#">이벤트 · 프로그램 안내</a></li>
+                  <li><a href="#">포토 갤러리</a></li>
+                </ul>
+              </li>
+              <li class="depth1">
+                <span>예약 · 확인</span>
+                <ul class="depth2">
+                  <li><a href="#">전시 관람 예약</a></li>
+                  <li><a href="#">이벤트 · 프로그램 예약</a></li>
+                  <li><a href="#">신청 확인 · 취소</a></li>
+                </ul>
+              </li>
+  
+              <li class="depth1">
+                <span>온라인미술관</span>
+                <ul class="depth2">
+                  <li><a href="#">온라인 미술관</a></li>
+                  <li><a href="#">MMCA+ 뉴스레터</a></li>
+                  <li>
+                    <a href="https://www.mmcashop.co.kr" target="_blank"
+                      >MMCA SHOP 미술가게</a
+                    >
+                  </li>
+                </ul>
+              </li>
+  
+              <li class="depth1">
+                <span>고객지원</span>
+                <ul class="depth2">
+                  <li><a href="#">공지사항</a></li>
+                  <li><a href="#">FAQ</a></li>
+                </ul>
+              </li>
+            </ul>
+            <div class="menu_bg"></div>
+          </nav>
+        </div>
+      </header>
+
+    <main id="anchor1" class="page">
+      <div id="main">
+
+        <div class="left">
+
+          <div id="slide_log">
+            <b class="count">1</b>
+            <div class="progress">
+            <span></span>
+          </div>
+          <b class="total">total</b>
+          <div class="control">
+            <a>stop</a>
+          </div>
+            
+          <h2>나의 미술관,<br /><span>국립현대미술관</span></h2>
+        </div>
+      </div>
+      <div class="main_slide">
+        <img src="images/p_images/main-slide-1.png" alt="image1"  class="active"/>
+        <img src="images/p_images/main-slide-2.png" alt="image2" />
+        <img src="images/p_images/main-slide-3.png" alt="image3" />
+        <img src="images/p_images/main-slide-4.png" alt="image4" />
+      </div>
+      <div class="scroll">
+        <a href="#"><span>SCROLL</span></a>
+      </div>
+      </div>
+    </main>
+    <!--전시-->
+    <section id="anchor2" class="page">
+      <div class="wrap">
+        <div class="top_wrap">
+          <h2>전시</h2>
+          <a href="" class="more_btn"
+            ><span class="motion">more</span><img src="images/s_images/more.png" alt="more"
+          /></a>
+        </div>
+
+        <div class="exhibition_wrap">
+          <div class="exhibition_box">
+            <!--//HOVER-->
+            <div class="img_box">
+              <a
+                class="youtube"
+                href="https://www.youtube.com/embed/fTu1I7o-Ls0"
+                target="_blank"
+                ><img
+                  src="images/s_images/Icon-play-circle.png"
+                  alt="유튜브 바로가기"
+              /></a>
+
+              <img src="images/p_images/exhibition-1.jpg" alt="전시1" />
+            </div>
+            <div class="info">
+              <h4 class="place">서울</h4>
+              <h3 class="subject">
+                <a href="#">《이승택 - 거꾸로, 비미술》</a>
+              </h3>
+              <p>2020.11.25 ~ 2021.03.28</p>
+            </div>
+          </div>
+
+          <div class="exhibition_box">
+            <!--//HOVER-->
+            <div class="img_box">
+              <a
+                class="youtube"
+                href="https://www.youtube.com/embed/PvD2aB8pCgw"
+                target="_blank"
+                ><img
+                  src="images/s_images/Icon-play-circle.png"
+                  alt="유튜브 바로가기"
+              /></a>
+
+              <img src="images/p_images/exhibition-2.jpg" alt="전시2" />
+            </div>
+            <div class="info">
+              <h4 class="place">과천</h4>
+              <h3 class="subject">
+                <a href="#">《올림픽 이펙트: 한국 건축과 디자인 8090》</a>
+              </h3>
+              <p>2020.12.17 ~ 2021.04.11</p>
+            </div>
+          </div>
+
+          <div class="exhibition_box">
+            <!--//HOVER-->
+            <div class="img_box">
+              <a
+                class="youtube"
+                href="https://www.youtube.com/embed/xanAzlp-4cU"
+                target="_blank"
+                ><img
+                  src="images/s_images/Icon-play-circle.png"
+                  alt="유튜브 바로가기"
+              /></a>
+
+              <img src="images/p_images/exhibition-3.png" alt="전시3" />
+            </div>
+
+            <div class="info">
+              <h4 class="place">덕수궁</h4>
+              <h3 class="subject">
+                <a href="#">《미술이 문학을 만났을 때》</a>
+              </h3>
+              <p>2021.02.04 ~ 2021.05.30</p>
+            </div>
+          </div>
+
+          <div class="exhibition_box">
+            <!--//HOVER-->
+            <div class="img_box">
+              <a
+                class="youtube"
+                href="https://www.youtube.com/embed/UVJIyiz0Rf4"
+                target="_blank"
+                ><img
+                  src="images/s_images/Icon-play-circle.png"
+                  alt="유튜브 바로가기"
+              /></a>
+
+              <img src="images/p_images/exhibition-4.jpg" alt="전시4" />
+            </div>
+            <div class="info">
+              <h4 class="place">청주</h4>
+              <h3 class="subject">
+                <a href="#">《탄생 100주년 기념 - 박래현, 삼중통역자》</a>
+              </h3>
+              <p>2021.02.04 ~ 2021.05.30</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--이벤트-->
+    <section id="anchor3" class="page">
+      <h2>프로그램ㆍ이벤트</h2>
+      <div id="eventMove">
+        <!--이벤트 박스 -->
+        <ul class="event_wrap">
+          <li class="event1">
+            <div class="event_img">
+              <a
+                class="youtube"
+                href="https://www.youtube.com/embed/XAckNaCFVEc"
+                target="_blank"
+                ><img
+                  src="images/s_images/Icon-play-circle.png"
+                  alt="유튜브 바로가기"
+              /></a>
+
+              <img
+                src="images/p_images/event-7.png"
+                alt="마인드 바디 프라블럼: 무의식의 재배열"
+              />
+            </div>
+
+            <div class="info">
+              <h3 class="caption">예약마감</h3>
+              <h2>마인드 바디 프라블럼<br />: 무의식의 재배열</h2>
+              <p>
+                <b>일시</b>2020.11.29<br />
+                <b>장소</b>레지던시, 창동레지던시 제2 전시실<br />
+                <b>비용</b>무료<br />
+              </p>
+            </div>
+          </li>
+          <li class="event2">
+            <div class="event_img">
+              <a
+                class="youtube"
+                href="https://www.youtube.com/embed/nSdS3ds6gTk"
+                target="_blank"
+                ><img
+                  src="images/s_images/Icon-play-circle.png"
+                  alt="유튜브 바로가기"
+              /></a>
+
+              <img
+                src="images/p_images/event-5.png"
+                alt="작가와 함꼐하는 직조시간"
+              />
+            </div>
+
+            <div class="info">
+              <h3 class="caption">예약마감</h3>
+              <h2>작가와 함께하는《직조시간》</h2>
+              <p>
+                <b>일시</b>2021.02.20 ~ 2021.04.09<br />
+                <b>장소</b>청주, 2층 쉼터 '틈'<br />
+                <b>비용</b>무료<br />
+              </p>
+            </div>
+          </li>
+          <li class="event3">
+            <div class="event_img">
+              <a
+                class="youtube"
+                href="https://www.youtube.com/embed/McGyzt1WIWk"
+                target="_blank"
+                ><img
+                  src="images/s_images/Icon-play-circle.png"
+                  alt="유튜브 바로가기"
+              /></a>
+
+              <img
+                src="images/p_images/event-1.png"
+                alt="MMCA 소장품 2020+ 퍼즐놀이"
+              />
+            </div>
+
+            <div class="info">
+              <h3 class="caption">현장접수</h3>
+              <h2>《MMCA 소장품 2020+ 퍼즐놀이》</h2>
+              <p>
+                <b>일시</b>2020.05.06 ~ 2021.04.25<br />
+                <b>장소</b>서울 1전시관 앞 복도 열린공원<br />
+                <b>비용</b>무료<br />
+              </p>
+              <p></p>
+            </div>
+          </li>
+          <li class="event4">
+            <div class="event_img">
+              <a
+                class="youtube"
+                href="https://www.youtube.com/embed/JSy-cx0ZkmY"
+                target="_blank"
+                ><img
+                  src="images/s_images/Icon-play-circle.png"
+                  alt="유튜브 바로가기"
+              /></a>
+
+              <img src="images/p_images/event-2.png" alt="신나는 빛깔 마당" />
+            </div>
+
+            <div class="info">
+              <h3 class="caption">현장접수</h3>
+              <h2>《신나는 빛깔 마당》</h2>
+              <p>
+                <b>일시</b>2020.06.18 ~ 2021.03.28<br />
+                <b>장소</b>과천 제1원형전시실 내 모두의 마당<br />
+                <b>비용</b>무료<br />
+              </p>
+            </div>
+          </li>
+          <li class="event5">
+            <div class="event_img">
+              <a
+                class="youtube"
+                href="https://www.youtube.com/embed/q8jZw4iZNmo"
+                target="_blank"
+                ><img
+                  src="images/s_images/Icon-play-circle.png"
+                  alt="유튜브 바로가기"
+              /></a>
+
+              <img
+                src="images/p_images/event-6.png"
+                alt="[필름앤비디오 예약] 2020막간"
+              />
+            </div>
+
+            <div class="info">
+              <h3 class="caption">예약마감</h3>
+              <h2>
+                [필름앤비디오 예약]<br />
+                2020막간
+              </h2>
+              <p>
+                <b>일시</b>2020.11.20 ~ 2020.12.06<br />
+                <b>장소</b>서울, B1 MMCA 필름앤비디오<br />
+                <b>비용</b>무료<br />
+              </p>
+            </div>
+          </li>
+          <li class="event6">
+            <div class="event_img">
+              <a
+                class="youtube"
+                href="https://www.youtube.com/embed/ZgwqW1_BPio"
+                target="_blank"
+                ><img
+                  src="images/s_images/Icon-play-circle.png"
+                  alt="유튜브 바로가기"
+              /></a>
+              <img src="images/p_images/event-3.png" alt="예술놀이마당" />
+            </div>
+            <div class="info">
+              <h3 class="caption">현장접수</h3>
+              <h2>《MMCA 예술놀이마당》</h2>
+              <p>
+                <b>일시</b>2020.10.14 ~ 2021.06.27<br />
+                <b>장소</b>과천 야외<br />
+                <b>비용</b>무료<br />
+              </p>
+            </div>
+          </li>
+          <li class="event7">
+            <div class="event_img">
+              <a
+                class="youtube"
+                href="https://www.youtube.com/embed/KR4ZXMUNp_M"
+                target="_blank"
+                ><img
+                  src="images/s_images/Icon-play-circle.png"
+                  alt="유튜브 바로가기"
+              /></a>
+
+              <img src="images/p_images/event-4.png" alt="풍경을 그려내는 법" />
+            </div>
+
+            <div class="info">
+              <h3 class="caption">현장접수</h3>
+              <h2>《풍경을 그려내는 법》</h2>
+              <p>
+                <b>일시</b>2020.12.22 ~ 2021.12.31<br />
+                <b>장소</b>청주 개방수장고, 온라인 미술관<br />
+                <b>비용</b>무료<br />
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <!--이동버튼-->
+      <a href="#" class="btn prev"
+        ><img src="images/s_images/prev-btn.png" alt="왼쪽버튼"
+      /></a>
+      <a href="#" class="btn next"
+        ><img src="images/s_images/next-btn.png" alt="오른쪽버튼"
+      /></a>
+    </section>
+    <!--공지사항 -->
+    <section id="anchor4" class="page">
+      <div class="notice_wrap">
+        <div class="top">
+          <h2>MMCA 새소식</h2>
+          <a href="" class="more_btn"
+            ><span class="motion">more</span><img src="images/s_images/more.png" alt="more"
+          /></a>
+        </div>
+
+        <div class="notice">
+          <ul class="show_box">
+            <li>
+              <div class="modal_wrap">
+                <p><b>6</b><br />2021.03</p>
+                <a class="modal" href="#modal_content_1">
+                  <h3>
+                    [과천] 국립현대미술관 과천관 '신나는 빛깔마당'(1층
+                    원형전시실)운영 중단 및 재개 안내
+                  </h3>
+                  <img src="images/s_images/plus_b.png" alt="자세히보기" />
+                </a>
+              </div>
+
+              <div class="modal_hide">
+                <div class="modal_content" id="modal_content_1">
+                  <p class="date"><b>2021.03.06</b> | 과천</p>
+
+                  <h3>
+                    [과천] 국립현대미술관 과천관 '신나는 빛깔마당'(1층
+                    원형전시실)운영 중단 및 재개 안내
+                  </h3>
+
+                  <hr />
+
+                  <p class="text">
+                    국립현대미술관 과천관에 코로나19 확진자 동선이 확인되어
+                    <br />국립현대미술관 과천관 1층 원형전시실 ( ' 신나는
+                    빛깔마당 ' ) 을 2021년 3월 6일 ( 토 ) 오후 1시부터 잠정 운영
+                    중단함을 알려드립니다. <br /><br />□ 해당 전시실은 3월
+                    10일(수)부터 운영이 재개됩니다.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="modal_wrap">
+                <p><b>26</b><br />2021.01</p>
+                <a class="modal" href="#modal_content_2">
+                  <h3>
+                    [청주] 국립현대미술관 청주 개방 수장고 일부 변경 운영 안내
+                  </h3>
+                  <img src="images/s_images/plus_b.png" alt="자세히보기" />
+                </a>
+              </div>
+
+              <div class="modal_hide">
+                <div class="modal_content" id="modal_content_2">
+                  <p class="date"><b>2021.01.26 </b>| 청주</p>
+                  <h3>
+                    [청주] 국립현대미술관 청주 개방 수장고 일부 변경 운영 안내
+                  </h3>
+                  <hr />
+                  <p class="text">
+                    국립현대미술관 청주관은 공예 소장품의 안전관리를 위해 그간
+                    개방 운영되었던 1층 제 2수장고를 보이는 수장고로 변경
+                    운영합니다.<br />
+                    공예 소장품은 유리창을 통해 계속 관람이 가능하며, 향후
+                    온라인 미술관을 통해 실감형 영상을 공개할 예정입니다.<br /><br />
+                    □ 변경내용<br />
+                    - 제2수장고(공예 소장품) 개방 운영 -> 보이는 수장고로 변경
+                    운영<br /><br />
+                    □ 변경일자<br />
+                    - 2021년 1월 26일(화)<br /><br />
+                    □ 문의사항<br />
+                    - 043-261-1400(청주)<br />
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="modal_wrap">
+                <p><b>18</b><br />2021.01</p>
+
+                <a class="modal" href="#modal_content_3">
+                  <h3>
+                    [공통] 국립현대미술관 재개관(서울,덕수궁)에 따른 관람
+                    사전예약제 안내
+                  </h3>
+                  <img src="images/s_images/plus_b.png" alt="자세히보기" />
+                </a>
+              </div>
+              <div class="modal_hide">
+                <div class="modal_content" id="modal_content_3">
+                  <p class="date"><b>2021.01.18 </b>| 공통</p>
+                  <h3>
+                    [공통] 국립현대미술관 재개관(서울,덕수궁)에 따른 관람
+                    사전예약제 안내
+                  </h3>
+                  <hr />
+                  <p class="text">
+                    국립현대미술관은 정부의 서울시 소재 국립문화예술시설 운영
+                    재개 결정에 따라, 1월 19일(화)부터 온라인 사전예약제로
+                    입장인원을 제한하여 미술관(서울, 덕수궁)을 재개관합니다.<br /><br />
+                    □ 재개관일: 2021년 1월 19일(화) 10시<br />
+                    (※ 덕수궁은 전시준비에 따라 2.4(목)에 재개관합니다.)<br /><br />
+                    □ 예약일정: 2020년 1월 18일(월) 14:00부터 예약접수<br />
+                    (※ 덕수궁 예약 : 1.21(목) 10:00~)<br /><br />
+                    □ 예약방법: 온라인 접수<br />
+                    해당 전시실은 3월 10일(수)부터 운영이 재개됩니다<br />
+                    □ 문의사항<br />
+                    02-3701-9500(서울) /02-2188-6000(과천)<br />
+                    02-2022-0600(덕수궁) / 043-261-1400(청주)<br /><br />
+                    □ 예약자 주의사항<br />
+                    - 예약방문시 신분증을 반드시 지참하여 본인 확인에 협조하여
+                    주시기 바랍니다.<br />
+                    - 1인(ID) 4명 동반예약 가능합니다.<br />
+                    - 열감지 카메라 또는 체온계로 발열 및 호흡기 증상 여부를
+                    확인합니다.<br />
+                    - 관내에서는 반드시 마스크를 착용하고 손 소독제를 사용하여
+                    주시기 바랍니다.<br />
+                    - 신분증을 지참하지 않았을 경우, 발열 및 호흡기 증상이
+                    확인될 경우 또는 마스크 착용을 거부할 경우에는 입장이
+                    제한됩니다.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="modal_wrap">
+                <p><b>15</b><br />2021.01</p>
+
+                <a class="modal" href="#modal_content_4">
+                  <h3>
+                    [서울] 디지털정보실(도서관·아카이브) 재개관에 따른 사전
+                    예약제 안내
+                  </h3>
+                  <img src="images/s_images/plus_b.png" />
+                </a>
+              </div>
+              <div class="modal_hide">
+                <div class="modal_content" id="modal_content_4">
+                  <p class="date"><b>2021.01.15 </b>| 서울</p>
+                  <h3>
+                    [서울] 디지털정보실(도서관·아카이브) 재개관에 따른 사전
+                    예약제 안내
+                  </h3>
+                  <hr />
+                  <p class="text">
+                    디지털정보실(도서관·아카이브)이 1월 19일(화) 재개관하오니
+                    이용에 참고하시기 바랍니다.<br /><br />
+                    □ 개요<br />
+                    - 재개관일: 2021. 1. 19.(화)<br />
+                    - 운영시간: 10:00~17:00 (※휴관: 매주 월요일, 법정공휴일)<br />
+                    - 운영방침: 사전예약제 운영 및 이용자 수 제한 *당일 및
+                    현장예약 불가<br /><br />
+                    □ 사전예약 방법: 온라인 및 전화 예약<br />
+                    - 전화: 디지털도서관(2층) 02-3701~9563~4 /
+                    디지털아카이브(3층) 02-3701-9565, 9567<br /><br />
+                    해당 전시실은 3월 10일(수)부터 운영이 재개됩니다.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="modal_wrap">
+                <p><b>23</b><br />2020.11</p>
+
+                <a class="modal" href="#modal_content_5">
+                  <h3>[공통] 국립현대미술관 사전예약 관람인원 조정 안내</h3>
+                  <img src="images/s_images/plus_b.png" alt="자세히보기" />
+                </a>
+              </div>
+              <div class="modal_hide">
+                <div class="modal_content" id="modal_content_5">
+                  <p class="date"><b>2020.11.23 </b>| 공통</p>
+                  <h3>[공통] 국립현대미술관 사전예약 관람인원 조정 안내</h3>
+                  <hr />
+                  <p class="text">
+                    국립현대미술관은 정부의 수도권 사회적 거리두기 2단계 격상
+                    조치에 따라, 관람객의 안전하고 편안한 관람환경조성을 위해
+                    관람인원을 다음과 같이 조정하여 운영합니다.<br /><br />
+                    □ 변경내용<br />
+                    - 서울, 과천, 덕수궁: 수용인원 50% -> 30% 하향 조정<br /><br />
+                    □ 변경일자<br />
+                    - 2020년 11월 24일(화)<br /><br />
+                    □ 문의사항<br />
+                    02-3701-9500(서울) / 02-2188-6000(과천)<br />
+                    02-2022-0600(덕수궁) / 043-261-1400(청주)
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <!--show_box-->
+        </div>
+        <!--notice-->
+      </div>
+      <!--notice_wrap-->
+    </section>
+    <!--뉴스레터-->
+    <section id="anchor5" class="page">
+      <div class="docent">
+        <h2>MMCA+ 뉴스레터</h2>
+        <div class="show">
+          <ul id="slide">
+            <li>
+              <div>
+                <h3><span>도슨트에게 듣다</span>: 유현미</h3>
+                <p>
+                  &lt;그림이 된 남자&gt; (2010)는 실재와 환영에 대해 우리의
+                  시선이 의심하는 그 순간, 꿈과 현실의 차원들이 서로 부딪혀 ‘한
+                  폭의 그림’처럼 영상이 흘러가며 그림 같은 사진, 사진 같은
+                  그림을 만들어내는 작품이다.
+                </p>
+
+                <h4>
+                  유현미, &lt;그림이 된 남자&gt; (2010) <br />단채널
+                  비디오,컬러, 사운드,22분 15초 <br />국립현대미술관 소장
+                </h4>
+                <a
+                  href="https://soundcloud.com/user-302013047/lijhtstsopdi/s-ltzv0BaVsoy"
+                  target="_blank"
+                  title="도슨트 들으러 가기"
+                  alt="도슨트 들으러 가기"
+                  ><img
+                    src="images/s_images/Icon-soundcloud_w.svg"
+                    alt="사운드 클라우드 바로가기"
+                /></a>
+                <h5>도슨트 : 임인희 (4기)</h5>
+              </div>
+            </li>
+
+            <li>
+              <div>
+                <h3><span>도슨트에게 듣다</span>: 박래현</h3>
+                <p>
+                  &lt;영광&gt; (1967)은 완전한 추상화 단계의 정점에 선 작가의
+                  뛰어난 독자성을 보여주며, 먹의 번짐 효과를 살린 화면은 노랑,
+                  빨강, 검정의 색채를 대비하여 토속성과 이국성을 동시에
+                  연출했다.
+                </p>
+
+                <h4>
+                  박래현, &lt;영광&gt; (1967) <br />종이에 채색, 134X168cm<br />국립현대미술관
+                  소장
+                </h4>
+                <a
+                  href="https://soundcloud.com/user-302013047/tadag9k678ko/s-DhZ0KFlxyfT"
+                  target="_blank"
+                  title="도슨트 들으러 가기"
+                  alt="도슨트 들으러 가기"
+                  ><img
+                    src="images/s_images/Icon-soundcloud_w.svg"
+                    alt="사운드 클라우드 바로가기"
+                /></a>
+                <h5>도슨트 : 전해경 (11기)</h5>
+              </div>
+            </li>
+
+            <li>
+              <div>
+                <h3><span>도슨트에게 듣다</span>: 김환기</h3>
+                <p>
+                  ‘나무와 이야기하다’라는 의미를 지닌 호(號) ‘수화(樹話)’처럼
+                  서정적 감각의 화면을 명상의 공간으로 승화시키고 자연과 하나가
+                  되어, 점·선·면으로 이루어진 자신만의 조형으로 한 편의 시를
+                  그려 나갔다. &lt;새벽#3&gt;은 대표작 ‘점화(點畵)’의 탄생을
+                  알리는 중요한 작품이다.
+                </p>
+
+                <h4>
+                  김환기, &lt;새벽#3&gt; (1964~1965) <br />캔버스에 유채,
+                  176.9X109.6cm <br />국립현대미술관 소장
+                  <br />&copy;(재)환기재단·환기미술관
+                </h4>
+                <a
+                  href="https://soundcloud.com/user-302013047/zbtw3swvxutf/s-xVkFWI3F89F"
+                  target="_blank"
+                  title="도슨트 들으러 가기"
+                  alt="도슨트 들으러 가기"
+                  ><img
+                    src="images/s_images/Icon-soundcloud_w.svg"
+                    alt="사운드 클라우드 바로가기"
+                /></a>
+                <h5>도슨트 : 정동욱 (10기)</h5>
+              </div>
+            </li>
+
+            <li>
+              <div>
+                <h3><span>도슨트에게 듣다</span>: 장욱진</h3>
+                <p>
+                  1949년 제2회 신사실파 동인전에 출품한 &lt;독&gt; (1949)은
+                  대담한 구도와 배치, 투박하고 순수함이 느껴지는 토속적 이미지로
+                  장욱진 작품세계의 독창성을 형성하는 데 근간이 된 작품이다.
+                </p>
+
+                <h4>
+                  장욱진, &lt;독&gt; (1949) <br />캔버스에 유채, 45.8X38cm
+                  <br />국립현대미술관 소장
+                </h4>
+                <a
+                  href="https://soundcloud.com/user-302013047/umvppcgyyevd/s-IC8N3H1J26K"
+                  target="_blank"
+                  title="도슨트 들으러 가기"
+                  alt="도슨트 들으러 가기"
+                  ><img
+                    src="images/s_images/Icon-soundcloud_w.svg"
+                    alt="사운드 클라우드 바로가기"
+                /></a>
+                <h5>도슨트 : 권미정 (10기)</h5>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <ul class="btn">
+          <li id="btn0">●</li>
+          <li id="btn1">●</li>
+          <li id="btn2">●</li>
+          <li id="btn3">●</li>
+        </ul>
+      </div>
+
+      <div class="news_wrap">
+        <div class="news">
+          <a href="#" class="link">
+            <div class="thumb">
+              <img
+                src="images/p_images/newsletter-1.png"
+                alt="불합리한 환상극"
+              />
+            </div>
+
+            <div class="txt">
+              <span>포커스</span>
+              <b>2021.02.26</b>
+              <h2>‘불합리한 환상극’의 매혹적인 막이 오르다</h2>
+              <p>
+                국립현대미술관이 지닌 매력 중 하나를 꼽으라면‘다채로운 예술을
+                만날 수 있다는 것’ 아닐까.오늘 소개하는 《2021 뉴미디어 소장품
+                기획전: 불합리한 환상극》에서는 동시대의 해외 작가들이 사회
+                현상을 바라보는 관점을 살펴볼 수 있다.
+              </p>
+            </div>
+          </a>
+        </div>
+
+        <div class="news">
+          <a href="#" class="link">
+            <div class="thumb">
+              <img
+                src="images/p_images/newsletter-2.png"
+                alt="박래현, 삼중통역자"
+              />
+            </div>
+
+            <div class="txt">
+              <span>포커스</span>
+              <b>2021.02.26</b>
+              <h2>《박래현, 삼중통역자》, 청주와의 운명적인 조우</h2>
+              <p>
+                지난해 국립현대미술관 덕수궁에서 개최된 《박래현, 삼중통역자》는
+                20세기 한국 화단을 대표하는 여성 작가 박래현을 재조명해 많은
+                박수를 받았다. 올해는 순회 전시를 통해 국립현대미술관 청주에서
+                관람객과 만나고 있다. 특히 청주는 박래현과 특별한 인연이 있는
+                지역으로, 이번 전시에서는 박래현의 회화, 판화, 태피스트리 등
+                대표작 외에도 그의 남편, 화가 김기창이 작업한 《화가 난 우향》을
+                새롭게 선보이는 중이다. 작품 안에 녹아든 이야기를 다양한
+                방식으로 만나볼 수 있는 박래현의 순회 전시를 살펴보았다.
+              </p>
+            </div>
+          </a>
+        </div>
+
+        <div class="news">
+          <a href="#" class="link">
+            <div class="thumb">
+              <img src="images/p_images/newsletter-3.png" alt="다원예술 2021" />
+            </div>
+
+            <div class="txt">
+              <span>포커스</span>
+              <b>2021.02.15</b>
+              <h2>다원예술 2021: 또 다른 우주를 생각해보다</h2>
+              <p>
+                《다원예술 2021: 멀티버스》는 기술 발전으로 급격하게 변화하는
+                사회의 양상을 다양한 형식의 예술과 최첨단 기술을 통해 질문하고
+                사유해보는 시도이다. 올해 다원예술은 다중우주를 뜻하는 멀티플
+                유니버스(Multiple Universes)를 키워드로 ‘실체란 무엇인가’를
+                질문하고 세계에 대한 관점의 변화를 제안한다. 6팀의 참여 작가는
+                가상현실과 인공지능, 드론과 자율 주행, 로봇 등의 기술을 활용하여
+                퍼포먼스와 설치, 영상 등의 작품을 제작한다.
+              </p>
+            </div>
+          </a>
+        </div>
+
+        <a href="" class="more_btn"
+          ><span class="motion">more</span><img src="images/s_images/more.png" alt="more"
+        /></a>
+      </div>
+    </section>
+
+    <footer>
+        <div class="email">
+            <form name="footerNewsletter">
+                <h2>MMCA 뉴스레터 구독</h2>
+                <div class="input_wrap">
+                    <input type="email" id="email" placeholder="이메일 주소를 입력하세요." autocomplete="email" />
+                    <button type="submit">SUBSCRIBE</button>
+                </div>
+            </form>
+            <a href="#" class="top"><img src="images/s_images/top.png" alt="top" /></a>
+        </div>
+
+        <div class="footer">
+            <div class="footer_left">
+                <img src="images/s_images/footer-logo.png" alt="logo" />
+            </div>
+            <div class="footer_right">
+                <div class="sitemap">
+                    <div class="mapbox">
+                        <h2>관람 안내</h2>
+                        <ul>
+                            <li><a href="visit.html">서울</a></a></li>
+                            <li><a href="visit.html">과천</a></a></li>
+                            <li><a href="visit.html">덕수궁</a></a></li>
+                            <li><a href="visit.html">청주</a></a></li>
+                        </ul>
+                    </div>
+                    <div class="mapbox">
+                        <h2>전시</h2>
+                        <ul>
+                            <li><a href="#">현재 전시 안내</a></li>
+                            <li><a href="#">예정 전시 안내</a></li>
+                        </ul>
+                    </div>
+                    <div class="mapbox">
+                        <h2>교육 · 행사</h2>
+                        <ul>
+                            <li><a href="#">이벤트 · 프로그램 안내</a></li>
+                            <li><a href="#">포토 갤러리</a></li>
+                        </ul>
+                    </div>
+                    <div class="mapbox">
+                        <h2>온라인 미술관</h2>
+                        <ul>
+                            <li><a href="#">온라인 미술관</a></li>
+                            <li><a href="#">MMCA+ 뉴스레터</a></li>
+                            <li>
+                                <a href="https://www.mmcashop.co.kr" target="_blank">MMCA SHOP 미술가게</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mapbox">
+                        <h2>예약 · 확인</h2>
+                        <ul>
+                            <li><a href="#">전시 관람 예약</a></li>
+                            <li><a href="#">이벤트 · 프로그램 예약</a></li>
+                            <li><a href="#">신청 확인 · 취소</a></li>
+                        </ul>
+                    </div>
+                    <div class="mapbox">
+                        <h2>고객지원</h2>
+                        <ul>
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">FAQ</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="r_bottom_wrap">
+                    <div class="contact">
+                        <p><b>서울</b>02 . 3701 . 9500</p>
+                        <p><b>과천</b>02 . 2188 . 6000</p>
+                        <p><b>덕수궁</b>02 . 2022 . 0600</p>
+                        <p><b>청주</b>043 . 261 . 1400</p>
+
+                        <span>별도 공지 시까지 무료 입장 ( ※ 덕수궁 관람료는 별도 )<br />코로나
+                            19 확산 예방 및 관람객 안전을 위하여, 당분간 단체 예약을 받지
+                            않습니다.<br />( 단체예약 재개 추후 공지 )</span>
+                    </div>
+                    <div class="follow">
+                        <h2>Follow MMCA</h2>
+                        <ul>
+                            <li>
+                                <a href="https://www.instagram.com/mmcakorea" target="_blank"><img src="images/s_images/instagram.png" alt="instagram" /></a>
+                            </li>
+
+                            <li>
+                                <a href="https://www.facebook.com/mmcakorea" target="_blank"><img src="images/s_images/facebook.png" alt="facebook" /></a>
+                            </li>
+                            <li>
+                                <a href="https://tv.naver.com/mmca" target="_blank"><img src="images/s_images/naver.png" alt="naver" /></a>
+                            </li>
+
+                            <li>
+                                <a href="https://www.youtube.com/user/MMCAKorea" target="_blank"><img src="images/s_images/youtube.png" alt="youtube" /></a>
+                            </li>
+
+                            <li>
+                                <a href="https://twitter.com/mmcakorea" target="_blank"><img src="images/s_images/twitter.png" alt="twitter" /></a>
+                            </li>
+
+                            <li>
+                                <a href="#page6"><img src="images/s_images/mail.png" alt="newsletter" /></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_bottom">
+                <ul>
+                    <li><a href="#">개인정보 처리방침</a></li>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">국민신문고</a></li>
+                    <li><a href="#">저작권 정책</a></li>
+                    <li><a href="#">정보공개</a></li>
+                </ul>
+                <p>
+                    Copyright&copy;Natinal Museum of Modern and Contemporay Art, Korea
+                    All right reserved
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
