@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="80" viewBox="0 0 70 80">
+  <g id="header-person" transform="translate(-928 -3133)">
+    <rect id="사각형_55" data-name="사각형 55" width="70" height="80" transform="translate(928 3133)" fill="none"/>
+    <path id="Icon_ionic-md-person" data-name="Icon ionic-md-person" d="M10.875,10.875a4.5,4.5,0,1,0-4.5-4.5A4.513,4.513,0,0,0,10.875,10.875Zm0,2.25c-2.981,0-9,1.519-9,4.5v2.25h18v-2.25C19.875,14.644,13.856,13.125,10.875,13.125Z" transform="translate(952.125 3162.125)" fill="#fff"/>
+  </g>
+</svg>
