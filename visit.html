@@ -14,8 +14,7 @@
       /* 탭메뉴 */
       $(document).ready(function () {
         $("ul.tab li").click(function () {
-          var tab_id = $(this).attr("data-tab");
-
+          let tab_id = $(this).attr("data-tab");
           $("ul.tab li").removeClass("current");
           $(".tab-content").removeClass("current");
 
@@ -24,8 +23,6 @@
         });
       });
     </script>
-
-    <style></style>
   </head>
 
   <body>
@@ -142,8 +139,8 @@
                 <li class="depth1">
                   <span>전시</span>
                   <ul class="depth2">
-                    <li><a href="#">현재 전시 안내</a></li>
-                    <li><a href="#">예정 전시 안내</a></li>
+                    <li><a href="exhibition.html">현재 전시 안내</a></li>
+                    <li><a href="exhibition.html">예정 전시 안내</a></li>
                   </ul>
                 </li>
                 <li class="depth1">
@@ -178,8 +175,8 @@
                 <li class="depth1">
                   <span>고객지원</span>
                   <ul class="depth2">
-                    <li><a href="#">공지사항</a></li>
-                    <li><a href="#">FAQ</a></li>
+                    <li><a href="service.html">공지사항</a></li>
+                    <li><a href="service.html">FAQ</a></li>
                   </ul>
                 </li>
               </ul>
@@ -190,9 +187,14 @@
     <section>
       <a href="#" class="scroll"><span>SCROLL</span></a>
       <div class="main">
-        <video autoplay loop muted controls>
+       <!--  <div class="current" data-tab="tab-1"></div>
+        <div data-tab="tab-2" ></div>
+        <div data-tab="tab-3"></div>
+        <div data-tab="tab-4"></div> -->
+
+       <!--  <video autoplay loop muted controls>
           <source src="images/p_images/sub_main.mp4" type="video/mp4" />
-        </video>
+        </video> -->
       </div>
       <div class="visit_wrap">
         <ul class="tabs">
@@ -206,7 +208,7 @@
             </ul>
           </li>
           <li class="menu2">
-            <a href="#">전시</a>
+            <a href="exhibition.html">전시</a>
             <ul class="tab">
               <li class="tab-link current" data-tab="tab-1">현재 전시 안내</li>
               <li class="tab-link" data-tab="tab-2">예정 전시 안내</li>
@@ -239,7 +241,7 @@
             </ul>
           </li>
           <li class="menu6">
-            <a href="#">고객지원</a>
+            <a href="service.html">고객지원</a>
             <ul class="tab">
               <li class="tab-link current" data-tab="tab-1">공지사항</li>
               <li class="tab-link" data-tab="tab-2">FAQ</li>
@@ -694,6 +696,7 @@
           ></iframe>
         </div>
       </div>
+
     </section>
     <footer>
       <div class="email">
@@ -732,8 +735,8 @@
             <div class="mapbox">
               <h2>전시</h2>
               <ul>
-                <li><a href="#">현재 전시 안내</a></li>
-                <li><a href="#">예정 전시 안내</a></li>
+                <li><a href="exhibition.html">현재 전시 안내</a></li>
+                <li><a href="exhibition.html">예정 전시 안내</a></li>
               </ul>
             </div>
             <div class="mapbox">
@@ -766,8 +769,8 @@
             <div class="mapbox">
               <h2>고객지원</h2>
               <ul>
-                <li><a href="#">공지사항</a></li>
-                <li><a href="#">FAQ</a></li>
+                <li><a href="service.html">공지사항</a></li>
+                <li><a href="service.html">FAQ</a></li>
               </ul>
             </div>
           </div>
