@@ -8,7 +8,7 @@ section{
 }
 
 a.scroll {
-  top: 55%;
+  top: 25%;
   position: absolute;
   /* position:fixed; */
   cursor: pointer;
@@ -20,24 +20,42 @@ a.scroll {
   color: #fff;
   line-height: 60px;
   border-radius: 100%;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(255, 255, 255, 0.4);
   right: 5%;
   z-index: 999;
 }
 a.scroll:hover {
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(0, 0, 0, 0.4);
 }
 
 a.scroll:hover span {
-  color: #333;
+  color: #fff;
 }
-.main video{
+div.main {
+  width: 100%;
+  height: 500px;
+  background: url(../images/p_images/visit_main.png) no-repeat center/cover;
+}
+/* div.main div.current{
+  z-index: 1;
+}
+div.main div{
+  position: absolute;
+  width: 100%;
+  height:600px;
+} */
+/* div.main div:nth-child(1){ background: url(../images/p_images/main-1.png) no-repeat center/cover;}
+div.main div:nth-child(2){ background: url(../images/p_images/main-2.png) no-repeat center/cover;}
+div.main div:nth-child(3){ background: url(../images/p_images/main-3.png) no-repeat center/cover;}
+div.main div:nth-child(4){ background: url(../images/p_images/main-4.png) no-repeat center/cover;}
+div.main div:nth-child(5){ background: url(../images/p_images/main-5.png) no-repeat center/cover;} */
+/* .main video{
   width : 100%;
   height: auto;
-}
+} */
 .visit_wrap {
   position: relative;
-  width: 80%;
+  width: 70%;
   margin: 0 auto;}
 .visit_wrap a{}
 .visit_wrap>ul.tabs {

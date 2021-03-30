@@ -952,11 +952,8 @@ ul.event_wrap > li > .info {
 ul.event_wrap > li .info .caption {
   background: #949494;
   width: 25%;
-  /* outline: 3px solid red; */
   padding: 1px 10px;
-  border-radius: 25;
-  /* overflow: hidden; */
-  /* border-radius: 10%; */
+  border-radius: 30px;
   margin: 10px auto;
   line-height: 25px;
   color: #fff;
