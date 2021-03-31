@@ -453,11 +453,19 @@ section a{
   color: #555;
 }
 
+div.main {
+  width: 100%;
+  height: 550px;
+  z-index: 1;
+  position: relative;
+}
+
 a.scroll {
-  top: 25%;
   position: absolute;
-  /* position:fixed; */
-  cursor: pointer;
+  /* right: 60%; */
+  right: 10%;
+  bottom: 10%;
+  transform: translateY(-10%);
   display:block;
   letter-spacing: -1px;
   text-align: center;
@@ -467,21 +475,15 @@ a.scroll {
   line-height: 60px;
   background: rgba(0, 0, 0, 0.4);
   border-radius: 100%;
-  right: 5%;
   z-index: 999;
 }
 a.scroll:hover {
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(182, 146, 146, 0.5);
 }
 a.scroll:hover span {
   color: #fff;
 }
 
-
-div.main {
-  width: 100%;
-  height: 500px;
-}
 
 section .wrap {
   position: relative;
@@ -550,24 +552,24 @@ section .tab-content {
 section .search_form {
     margin-bottom: 50px;
     border: 1px solid #e3e3e3;
-    width: 35%;
+    width: 40%;
     margin: 2% auto;
     position: relative;
     border-radius: 6px;
     overflow: hidden;
     background-color: #fff;
-}
-section .search_form input {
+  }
+  section .search_form input {
     width: 90%;
     margin: 0 auto;
     height: 50px;
     padding: 0 10px;
-    text-indent: 3%;
-    /* text-align: left; */
-}
-section .search_form input::placeholder {
+    text-indent: 10px;
+  }
+  section .search_form input::placeholder {
+  text-align: center;
     color: #555;
-    text-indent: 3%;
+    text-indent: 30px;
     font-size: 1rem;
 }
 section .search_form button {
@@ -671,15 +673,18 @@ section .box span {
 section .loadMore {
   width: 20%;
   display: block;
-  padding: 15px;
+  padding: 10px;
+  border-radius: 10px;
   box-sizing: border-box;
-  background-color: rgb(86, 121, 107);
-  color: #fff;
-  font-weight: bold;
+  color: #333;
+  background-color:#eeee;
+  /* font-weight: bold; */
   text-align: center;
   margin: 20px auto 80px auto;
 }
-
+section .loadMore:hover{
+  background-color: #dbcfc8;
+}
 /*-----------------!!! FOOTER !!!-----------------*/
 footer {
   position: relative;
