@@ -158,7 +158,7 @@ $(function () {
         e.preventDefault();
 
         //2. a태그의 href값 구하기
-        var imgsrc = $(this).attr("href");
+        let imgsrc = $(this).attr("href");
         console.log("이미지 경로: " + imgsrc);
 
         //3. 이미지 경로값을 대상요소의 src값으로 세팅
