@@ -1,12 +1,5 @@
 @charset "UTF-8";
 
-body{
-  background-color: #fff;
-}
-section{
-  width: 100%;
-}
-
 a.scroll {
   top: 25%;
   position: absolute;
@@ -32,9 +25,7 @@ a.scroll:hover span {
   color: #fff;
 }
 div.main {
-  width: 100%;
-  height: 500px;
-  background: url(../images/p_images/visit_main.png) no-repeat center/cover;
+  background: url(../images/p_images/main-1.png) no-repeat center/cover;
 }
 /* div.main div.current{
   z-index: 1;
@@ -53,74 +44,7 @@ div.main div:nth-child(5){ background: url(../images/p_images/main-5.png) no-rep
   width : 100%;
   height: auto;
 } */
-.visit_wrap {
-  position: relative;
-  width: 70%;
-  margin: 0 auto;}
-.visit_wrap a{}
-.visit_wrap>ul.tabs {
-  font-size: 0.9rem;
-  box-sizing: border-box;
-  position: relative;
-  width: 100%;
-  text-align: center;}
-.visit_wrap ul.tabs>li{
-  float: left;
-  color: #333;
-  display: block;
-  transition: all 0.1s ease-in-out;
-  width: 16.66666666666667%;
-  height: 50px;}
-.visit_wrap ul.tabs>li.current{
-  background-color: #dbc8c8;
-  }
-.visit_wrap ul.tabs>li>a{
-  line-height: 50px;
-  color: #333;
-  display: block;}
-.visit_wrap ul.tabs>li.current>a{}
-.visit_wrap ul.tabs>li>a:hover{
-  background-color: #eeee;}
-.visit_wrap ul.tab {
-  display: none;
-  position: absolute;
-  width: 100%;
-  transition: height .4s;}
-.visit_wrap ul.tab.current {
-    display: inherit;}
-.visit_wrap ul.tab>li.current{
-  background-color: #eeee;}
-.visit_wrap ul.tab>li:hover{
-  background-color: #eeee;}
-.visit_wrap ul.tab>li.tab-link{ 
-  height: 50px;
-  line-height: 50px;
-  width: 16.66666666666667%;
-  float: left;  
-  color: #333;
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;}
 
-.tab-content > h2 {
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-  margin: 50px 0;
-  /* text-align: center; */
-  font-size: 1.5rem;
-  padding: 8px;
-  border-bottom: 2px solid #999;
-  display: inline-block;}
-
-.tab-content.current{
-	display: inherit;
-}
-.tab-content {
-  display: none;
-  width: 100%;
-  margin: 5% auto;
-  /* outline: 3px solid lime; */
-}
 
 #largeImg {
   width: 100%;
