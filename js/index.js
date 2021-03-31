@@ -1,4 +1,4 @@
-//index_n.js
+//index.js
 
 /* 전역변수 구역 */
 let startN = 0; // 0- 실행전 , 1- 실행후
