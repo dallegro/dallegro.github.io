@@ -1,0 +1,10 @@
+/*//////////////////////////////////////////
+            	고객지원.CSS
+///////////////////////////////////////////*/
+
+@charset "utf-8";
+
+
+div.main {
+    background: url(../images/p_images/main-6.jpg) no-repeat center/cover;
+}
