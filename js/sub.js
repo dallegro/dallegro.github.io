@@ -130,7 +130,7 @@ function btnAction() {
     $(".scroll").click(function (e) {
         e.preventDefault();
         $("html, body").stop().animate({
-            scrollTop: "+800px"
+            scrollTop: "+470px"
         }, 600, "easeOutQuad");
     });
     /* 탑버튼 */
