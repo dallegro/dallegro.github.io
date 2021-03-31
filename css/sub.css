@@ -219,12 +219,12 @@ header .header_inner a.search_btn {
   margin: 0 auto;
 }
 .user_box .user_form p,
-a,
-label {
+.user_form a,
+.user_form label {
   line-height: 1.8;
   font-size: 0.9rem;
   letter-spacing: 0.2px;
-  color: rgb(243, 236, 236);
+  color: #888;
 }
 .user_box .user_form hr {
   margin: 25px 0;
@@ -504,7 +504,6 @@ section .wrap ul.tabs>li{
   height: 50px;}
 section .wrap ul.tabs>li.current{
   background-color: #dbc8c8;}
-section .wrap ul.tabs>li.current>a{}
 section .wrap ul.tabs>li>a{
   line-height: 50px;
   color: #333;
