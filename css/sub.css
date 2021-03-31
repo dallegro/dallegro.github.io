@@ -3,7 +3,9 @@
 ///////////////////////////////////////////*/
 
 @charset "utf-8";
-
+body{
+  background-color: #fff;
+}
 /*jQeury용*/
 #black {
   display: none;
@@ -95,30 +97,23 @@ header .header_inner a.menu_btn b > span {
   width: 100%;
   background: #fff;
 }
-
-
 header .header_inner a.menu_btn b > span.line1 {
   top: 0;
 }
-
 header .header_inner a.menu_btn b > span.line2 {
   top: 50%;
   transform: translateY(-50%);
 }
-
 header .header_inner a.menu_btn b > span.line3 {
   bottom: 0;
 }
-
 /*HOVER*/
 header .header_inner .menu_btn:hover > b > span.line1 {
   transform: translate3d(0px, 3px, 0px);
 }
-
 header .header_inner .menu_btn:hover > b > span.line3 {
   transform: translate3d(0px, -3px, 0px);
 }
-
 header .header_inner a.user_btn {
   position: absolute;
   left: 7.6%;
@@ -127,16 +122,13 @@ header .header_inner a.user_btn {
   height: 80px;
   text-indent: -99999px;
 }
-
 /*---!! 오늘 관람 시간 !!---*/
-
 header .header_inner .opening_btn {
   position: absolute;
   width: 174px;
   right: 7.6%;
   letter-spacing: 0.1rem;
 }
-
 header .header_inner .opening_btn p {
   color: #fff;
   cursor: pointer;
@@ -146,13 +138,11 @@ header .header_inner .opening_btn p {
   font-size: 0.9rem;
   box-sizing: border-box;
 }
-
 header .header_inner .opening_btn p span {
   font-weight: 300;
   font-size: 0.8rem;
   letter-spacing: 0.01rem;
 }
-
 header .header_inner .opening_btn > table {
   width: 174px;
   box-sizing: border-box;
@@ -161,35 +151,29 @@ header .header_inner .opening_btn > table {
   color: #f2f2f2;
   font-size: 0.9rem;
 }
-
 header .header_inner .opening_btn:hover > table {
   top: 80px;
 }
-
 header .header_inner .opening_btn table a {
   color: #f2f2f2;
 }
 header .header_inner .opening_btn table a:hover {
   text-decoration: underline;
 }
-
 header .header_inner .opening_btn table tr {
   margin: 0 auto;
   height: 28.8px;
 }
-
 header .header_inner .opening_btn table tr th {
   text-indent: 5px;
   text-align: left;
 }
 header .header_inner .opening_btn table tr td:first-child {
   text-align: center;
-  letter-spacing: -0.5px;
-}
+  letter-spacing: -0.5px;}
 header .header_inner .opening_btn table tr td {
   text-align: right;
 }
-
 header .header_inner a.search_btn {
   position: absolute;
   right: 0;
@@ -199,7 +183,6 @@ header .header_inner a.search_btn {
   background: url(../images/s_images/header-search.svg);
   text-indent: -99999px;
 }
-
 /*-----로그인 모달 레이아웃--------*/
 .user_box {
   text-align: center;
@@ -212,7 +195,6 @@ header .header_inner a.search_btn {
   height: 100%;
   padding-top: 60px;
 }
-
 .user_box .bg {
   padding: 500%;
   position: fixed;
@@ -224,7 +206,6 @@ header .header_inner a.search_btn {
   background: rgba(0, 0, 0, 0.8);
   cursor: pointer;
 }
-
 .user_box form.user_form {
   margin: 5% auto;
   z-index: 70;
@@ -233,25 +214,21 @@ header .header_inner a.search_btn {
   background-color: #fff;
   width: 25%;
 }
-
 .user_box .user_form input {
   width: 90%;
   margin: 0 auto;
 }
-
 .user_box .user_form p,
 a,
 label {
   line-height: 1.8;
   font-size: 0.9rem;
   letter-spacing: 0.2px;
-  color: #888;
+  color: rgb(243, 236, 236);
 }
-
 .user_box .user_form hr {
   margin: 25px 0;
 }
-
 .user_box input[type="email"],
 .user_box input[type="password"] {
   width: 100%;
@@ -262,7 +239,6 @@ label {
   border: 1px solid #ccc;
   box-sizing: border-box;
 }
-
 .user_box button {
   background-color: #666;
   border-radius: 50px;
@@ -273,24 +249,19 @@ label {
   cursor: pointer;
   width: 100%;
 }
-
 .user_box button:hover {
   opacity: 0.7;
 }
-
 .user_box img.user_logo {
   padding: 5px 0 10px 0;
   width: 40%;
 }
-
 .user_box label.remember {
   float: left;
 }
-
 .user_box .user_continer {
   padding: 16px;
 }
-
 .user_box input[type="checkbox"] {
   margin: 12px 0;
   width: auto;
@@ -298,15 +269,12 @@ label {
   letter-spacing: 0.2px;
   color: #888;
 }
-
 .user_box span.psw {
   float: left;
 }
-
 .user_box span.join {
   float: right;
 }
-
 header .header_inner a.booking_btn {
   position: absolute;
   width: 173px;
@@ -317,13 +285,11 @@ header .header_inner a.booking_btn {
   color: #fff;
   font-size: 0.9rem;
 }
-
 header .header_inner a.booking_btn span {
   font-weight: 300;
   font-size: 0.8rem;
   letter-spacing: 0.01rem;
 }
-
 header .header_inner h1.logo {
   position: absolute;
   left: 50%;
@@ -331,7 +297,6 @@ header .header_inner h1.logo {
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
 }
-
 header .header_inner h1.logo a {
   display: block;
   width: 70px;
@@ -339,7 +304,6 @@ header .header_inner h1.logo a {
   text-indent: -99999px;
   background: url(../images/s_images/header-logo.png);
 }
-
 /*-----검색창 레이아웃--------*/
 .search_box {
   display: none;
@@ -351,7 +315,6 @@ header .header_inner h1.logo a {
   height: 100%;
   text-align: center;
 }
-
 .search_box .bg {
   position: fixed;
   top: 0;
@@ -362,7 +325,6 @@ header .header_inner h1.logo a {
   background: rgba(0, 0, 0, 0.8);
   cursor: pointer;
 }
-
 .search_box form.search_form {
   z-index: 70;
   width: 600px;
@@ -372,7 +334,6 @@ header .header_inner h1.logo a {
   overflow: hidden;
   background-color: #fff;
 }
-
 .search_box form.search_form input {
   width: 550px;
   height: 60px;
@@ -380,13 +341,11 @@ header .header_inner h1.logo a {
   font-size: 20px;
   text-align: center;
 }
-
 .search_box form.search_form input::placeholder {
   color: #555;
   text-align: center;
   font-size: 1rem;
 }
-
 .search_box form.search_form button {
   position: absolute;
   top: 0;
@@ -397,7 +356,6 @@ header .header_inner h1.logo a {
   text-indent: -99999px;
   cursor: pointer;
 }
-
 /*-----------------슬라이드 메뉴-----------------*/
 div.slide_menu {
   /* outline: 3px solid pink; */
@@ -414,7 +372,6 @@ div.slide_menu {
   z-index: 500;
   font-size: 0.98rem;
 }
-
 div.menu_bg {
   width: 115.6%;
   height: 900%;
@@ -423,7 +380,6 @@ div.menu_bg {
   left: -10%;
   /* outline: 3px solid blue; */
 }
-
 div.slide_menu nav {
   /* padding: 30px; */
   /* outline: 3px solid palegreen; */
@@ -435,7 +391,6 @@ div.slide_menu nav {
   display: block;
   /*outline: 3px solid red;*/
 }
-
 div.slide_menu nav h2.logo {
   position: absolute;
   margin-top: 20px;
@@ -445,31 +400,25 @@ div.slide_menu nav h2.logo {
   opacity: 0.8;
   background: url(../images/s_images/header-logo-b.png) no-repeat center/cover;
 }
-
 div.slide_menu nav a.close {
   display: inline-block;
   height: 80px;
 }
-
 div.slide_menu nav a.close img {
   display: block;
   margin: 0 auto;
   margin-top: 30px;
   transition: all 0.6s ease-in-out;
 }
-
 div.slide_menu nav a.close:hover img {
   transform: rotate(180deg);
 }
-
 div.slide_menu nav ul.gnb {
   width: 100%;
 }
-
 div.slide_menu nav ul.gnb li.depth1 {
   box-shadow: 0 1px #eee;
 }
-
 div.slide_menu nav ul.gnb li.depth1 > span {
   padding: 20px 0;
   display: inline-block;
@@ -477,25 +426,20 @@ div.slide_menu nav ul.gnb li.depth1 > span {
   cursor: pointer;
   font-weight: 500;
 }
-
 div.slide_menu nav ul.gnb li.depth1 > a:hover {
   color: #000;
   transform: scale(1.1);
 }
-
 div.slide_menu nav ul.depth2 {
   display: none;
 }
-
 div.slide_menu nav ul.depth2 > li {
   padding: 10px 0 20px 0;
 }
-
 div.slide_menu nav ul.depth2 > li > a {
   display: inline-block;
   color: #555;
 }
-
 div.slide_menu nav ul.depth2 > li > a:hover {
   color: #555;
   font-weight: 500;
@@ -503,23 +447,47 @@ div.slide_menu nav ul.depth2 > li > a:hover {
 }
 
 /*-----------------!!! HEADER 끝!!!-----------------*/
-body{
-  background-color: #fff;
-}
 section{
-  width: 100%;
+  width: 100%;}
+section a{
+  color: #555;
 }
+
+a.scroll {
+  top: 25%;
+  position: absolute;
+  /* position:fixed; */
+  cursor: pointer;
+  display:block;
+  letter-spacing: -1px;
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  color: #fff;
+  line-height: 60px;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 100%;
+  right: 5%;
+  z-index: 999;
+}
+a.scroll:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
+a.scroll:hover span {
+  color: #fff;
+}
+
 
 div.main {
   width: 100%;
   height: 500px;
 }
+
 section .wrap {
   position: relative;
   width: 70%;
   margin: 0 auto;}
-section .wrap a{}
-section .wrap>ul.tabs {
+section .wrap ul.tabs {
   font-size: 0.9rem;
   box-sizing: border-box;
   position: relative;
@@ -533,13 +501,12 @@ section .wrap ul.tabs>li{
   width: 16.66666666666667%;
   height: 50px;}
 section .wrap ul.tabs>li.current{
-  background-color: #dbc8c8;
-  }
+  background-color: #dbc8c8;}
+section .wrap ul.tabs>li.current>a{}
 section .wrap ul.tabs>li>a{
   line-height: 50px;
   color: #333;
   display: block;}
-section .wrap ul.tabs>li.current>a{}
 section .wrap ul.tabs>li>a:hover{
   background-color: #eeee;}
 section .wrap ul.tab {
@@ -561,8 +528,7 @@ section .wrap ul.tab>li.tab-link{
   color: #333;
   cursor: pointer;
   transition: all 0.2s ease-in-out;}
-
-.tab-content > h2 {
+section .tab-content > h2 {
   position: relative;
   left: 50%;
   transform: translateX(-50%);
@@ -572,19 +538,15 @@ section .wrap ul.tab>li.tab-link{
   padding: 8px;
   border-bottom: 2px solid #999;
   display: inline-block;}
-
-.tab-content.current{
+section .tab-content.current{
 	display: inherit;
 }
-.tab-content {
+section .tab-content {
   display: none;
   width: 100%;
   margin: 5% auto;
   /* outline: 3px solid lime; */
 }
-
-
-
 section .search_form {
     margin-bottom: 50px;
     border: 1px solid #e3e3e3;
@@ -595,7 +557,6 @@ section .search_form {
     overflow: hidden;
     background-color: #fff;
 }
-
 section .search_form input {
     width: 90%;
     margin: 0 auto;
@@ -604,13 +565,11 @@ section .search_form input {
     text-indent: 3%;
     /* text-align: left; */
 }
-
 section .search_form input::placeholder {
     color: #555;
     text-indent: 3%;
     font-size: 1rem;
 }
-
 section .search_form button {
     position: absolute;
     top: 0;
@@ -621,13 +580,111 @@ section .search_form button {
     text-indent: -99999px;
     cursor: pointer;
 }
+/* 포토갤러리 */
+.gallery #largeImg {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.gallery #largeImg img {
+  width: 100%;
+  transition: all 0.6s;
+}
+.gallery #largeImg:hover img{
+transform: scale(1.1);
+}
+.gallery .thumbs {
+  width: 87%;
+  margin: 30px auto;
+}
+.gallery .thumbs a {
+  display: inline-block;
+  width: 18.7%;
+  margin-left: 1%;
+  transition: all 0.2s ease-in-out;
+}
+.gallery .thumbs a:hover{
+  opacity: 0.6;
+}
+.gallery .thumbs a:first-child {
+  margin-left: 0;
+}
+.gallery .thumbs img {
+  width: 100%;
+  height: 100%;
+  /*border: 1px solid #ccc;*/
+  /*padding: 5px;*/
+}
+
+/* loadimg */
+section div.box_wrap {
+  margin-top: 50px;
+  width: 100%;
+  /* background-color:rgba(241, 241, 241, 0.692); */
+  /* outline: 3px solid red; */
+}
+
+section div.box_wrap::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.tab-content.current a.box {
+  display: none;
+}
+
+
+section a.box,div.box {
+  /* outline: 2px solid blue; */
+  width: 21%;
+  cursor: pointer;
+  display: block;
+  float: left;
+  text-align: center;
+  margin: 0 2% 50px 2%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+section .box img {
+  transition: all 0.3s ease-in-out;
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 20px;
+}
+
+section .box:hover img {
+  opacity: 0.6;
+}
+
+section .box span {
+  letter-spacing: -1px;
+  height: 50px;
+  /* outline: 3px solid pink; */
+  display: block;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+section .loadMore {
+  width: 20%;
+  display: block;
+  padding: 15px;
+  box-sizing: border-box;
+  background-color: rgb(86, 121, 107);
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px auto 80px auto;
+}
 
 /*-----------------!!! FOOTER !!!-----------------*/
 footer {
   position: relative;
   width: 100%;
-  height: 940px;
-}
+  height: 940px;}
 footer div.email {
   position: relative;
   /*outline: 4px solid lime;*/
@@ -635,21 +692,17 @@ footer div.email {
   height: 360px;
   color: #fff;
   background: url(../images/p_images/newsletter-bg.png);
-  text-align: center;
-}
+  text-align: center;}
 
 footer div.email form {
   border: 0;
   display: block;
-  line-height: 80px;
-}
+  line-height: 80px;}
 
 footer div.email form h2 {
   padding-top: 80px;
   font-weight: 600;
-  font-size: 28px;
-}
-
+  font-size: 28px;}
 footer div.email form div.input_wrap {
   width: 33.7%;
   height: 50px;
