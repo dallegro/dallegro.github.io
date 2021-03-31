@@ -461,24 +461,26 @@ div.main {
 }
 
 a.scroll {
+  font-weight: bold;
+  font-size: 9px;
   position: absolute;
   /* right: 60%; */
   right: 10%;
   bottom: 10%;
   transform: translateY(-10%);
   display:block;
-  letter-spacing: -1px;
+  letter-spacing: 1px;
   text-align: center;
   width: 60px;
   height: 60px;
   color: #fff;
   line-height: 60px;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.6);
   border-radius: 100%;
   z-index: 999;
 }
 a.scroll:hover {
-  background: rgba(182, 146, 146, 0.5);
+  background: rgba(182, 146, 146, 0.7);
 }
 a.scroll:hover span {
   color: #fff;
