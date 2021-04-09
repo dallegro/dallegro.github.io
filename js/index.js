@@ -17,7 +17,7 @@
     		var changeColor = $(document).scrollTop();
     		var scroll = $(document).scrollTop();
 			//console.log('스크롤값'+scroll);
-    		if (scroll > 880) {
+    		if (scroll > 680) {
     			$("#pro1").delay(500);
     			$("#pro2").delay(1000);
     			$("#pro3").delay(1500);
