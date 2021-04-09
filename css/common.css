@@ -30,7 +30,8 @@ header .mobile_gnb{position: absolute; top:20px; right: 5%; width: 43px; height:
 .humbermenu .copyright{font-size: 12px; color: #9c9c9c; position: absolute; bottom: 10%; left:0;right: 0;}
 .humbermenu_on{top: 0; left: 0;}
 
-footer{text-align: center; position: relative; bottom: 0; left: 0; right: 0; z-index: 1;}
+footer{text-align: center; position: relative;
+	bottom: -100px;bottom: 0; left: 0; right: 0; z-index: 1;}
 footer .contact{height: auto; max-height: 500px; }
 footer .label{height: 70px; background: #393939; width: 100%;}
 footer .label p{color: #9c9c9c; line-height: 70px; font-size: 12px;}
@@ -82,8 +83,10 @@ aside {position: fixed; right:30px; bottom: 40px;}
 	div.wrapper>div p>a{
 	letter-spacing: -1px;
 	font-size: 0.9rem;
-	
 }
+	footer{
+		bottom: -200px;
+	}
 }
 
 
