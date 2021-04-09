@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
+@font-face {src: url(../font/NotoSansCJKkr-Bold.otf);}
+*{font-family: 'Noto Sans KR', sans-serif;word-break: keep-all;}
+.moving_all{
+	-webkit-transition: all 500ms ease-in-out;
+	-moz-transition: all 500ms ease-in-out;
+	-o-transition: all 500ms ease-in-out;
+	transition: all 500ms ease-in-out;
+}
+
+.loading{width: 100%; height: 100%; background: #fff; position: fixed;left: 0; top: 0;z-index: 1000;}
+.loading img{position: absolute; top:50%; left: 50%; margin-left: -120.5px; margin-top: -120.5px;}
+.dimmed {position: fixed;width: 100%;height: 100%;top: 0;left: 0;bottom: 0;right: 0;background: rgba(0, 0, 0, 0.33);z-index: 800;display: none;}
+
+.inner{max-width: 1440px; min-width: 320px; margin: 0 auto;}
+header{display: block; height: 70px; background: #fff; position: fixed; width: 100%; z-index: 50; box-shadow: 5px 5px 5px rgba(131, 131, 131, 0.08)}
+header .logo{text-indent: -999px;  background: url(../images/logo.png) no-repeat; width: 115px; height: 64px; position: absolute; top:20px; left: 5%;}
+header nav{position: absolute; right: 7%; top:20px;}
+header nav .gnb li{float: left;margin-right: 4.8958vw;}
+header nav .gnb li a{font-size: 18px; color: #d0d0d0; font-weight:900;}
+header nav .gnb li a:hover{color: #d20000; border-bottom: 2px solid #0d347b; padding-bottom: 25px;}
+header .mobile_gnb{position: absolute; top:20px; right: 5%; width: 43px; height: 29px;}
+
+.humbermenu{width: 100%; height: 100%; background: #f7f7f7;z-index: 1500; position: fixed; text-align: center; top:-100%; left: -100%}
+.humbermenu .menu_list{font-weight: 900; position: relative; top:40%; left: 10%; width: 100%;}
+.humbermenu .menu_list li a{float: left;color:#c4c4c4; font-size: 60px; width: 20%;}
+.humbermenu .menu_list li a:hover{color:#0d347b;}
+.humbermenu .menu_list li a span{font-size: 12px; display: block; font-weight: 100;}
+.humbermenu .x_btn{position: absolute; top:20px; right: 5%;}
+.humbermenu .copyright{font-size: 12px; color: #9c9c9c; position: absolute; bottom: 10%; left:0;right: 0;}
+.humbermenu_on{top: 0; left: 0;}
+
+footer{text-align: center; position: relative; bottom: 0; left: 0; right: 0; z-index: 1;}
+footer .contact{height: auto; max-height: 500px; }
+footer .label{height: 70px; background: #393939; width: 100%;}
+footer .label p{color: #9c9c9c; line-height: 70px; font-size: 12px;}
+footer .message{width: 184px; height: 32px; border: 1px solid #9d9d9d;color:#9d9d9d; margin: 2%;}
+footer .message:hover{background: #0d347b; color: #fff;border: none;}
+footer .wrapper a{color:#9d9d9d; font-size: 18px;
+word-break:break-all;}
+footer .wrapper a:hover{color:#0d347b;}
+footer .wrapper>div{
+/*	outline: 3px solid red;*/
+	display: inline-block; 
+	margin-right: 5%;
+	width: 30%;
+	padding: 10px;
+	box-sizing: border-box;
+	text-align: center;
+	float: left;
+
+}
+footer .wrapper>div:last-child{margin-right: 0;}
+footer .wrapper div img{padding: 5%;
+}
+.fake_area{width: 100%; height: 25vw; min-height: 400px; max-height: 450px; z-index: -999; position: absolute;}
+
+aside {position: fixed; right:30px; bottom: 40px;}
+
+
+
+
+
+/* - - -  media qurey  - - - */
+
+@media only screen and (max-width:980px) {
+    header{box-shadow: none;}
+    header nav .gnb{display: none;}
+    header .mobile_gnb{display: inline-block;}
+    .humbermenu .menu_list{top:30%;}
+    .humbermenu .menu_list li a{font-size: 52px; width:40%; padding: 3% 0;}
+    footer .wrapper{color:#9d9d9d; font-size: 16px;}
+    footer .message{margin: 5%;}
+}
+
+
+@media only screen and (max-width:600px) {
+   header{background: none;}
+   .humbermenu_on .menu_list{top:10%;}
+   .humbermenu_on .menu_list li{width: 100%; margin: 0 auto; text-align: left; padding: 0;}
+   .humbermenu_on .menu_list li a{clear: both; font-size: 40px;margin: 2%;}
+	div.wrapper>div p>a{
+	letter-spacing: -1px;
+	font-size: 0.9rem;
+	
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
