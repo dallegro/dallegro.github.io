@@ -329,36 +329,36 @@ progress::-webkit-progress-bar {
 
 
 
-.mywork1 {
+.mywork {
 	height: 1080px;
 	background: #fff;
 	width: 100%;
 }
 
-.mywork1 .inner {
+.mywork .inner {
 /*	outline: 3px solid lime;*/
 	max-width: 1440px;
 	margin: 0 auto;
 	min-width: 300px;
 }
 
-.mywork1 .inner .works {
+.mywork .inner .works {
 /*	outline: 3px solid green;*/
 	width: 32%;
 	height: 1000px;
 	float: left;
 	margin-right: 2%;
 }
-.mywork1 .inner .works > div {
+.mywork .inner .works > div {
 	background: #ffc5c5;
 }
 
-.mywork1 .inner .works:last-child {
+.mywork .inner .works:last-child {
 	float: right;
 	margin-right: 0;
 }
 
-.mywork1 .inner .works > div {
+.mywork .inner .works > div {
 	box-sizing: border-box;
 	position: relative;
 	overflow: hidden;
@@ -391,40 +391,40 @@ progress::-webkit-progress-bar {
 	margin-bottom: 0;
 }
 
-.mywork1 .inner .works .banner1_1 {
+.mywork .inner .works .banner1_1 {
 	background: url(../images/banner1.png) no-repeat;
 	background-position: center;
 	background-size: cover;
 }
 
-.mywork1 .inner .works .banner1_2 {
+.mywork .inner .works .banner1_2 {
 	background: url(../images/banner1_2.png) no-repeat;
 	background-position: center;
 	background-size: cover;
 }
-.mywork1 .inner .works .banner1_3 {
+.mywork .inner .works .banner1_3 {
 	background: url(../images/banner1_3.png) no-repeat;
 	background-position: center;
 	background-size: cover;
 }
-.mywork1 .inner .works .banner2 {
+.mywork .inner .works .banner2 {
 	background: url(../images/banner2.png) no-repeat;
 	background-position: center top;
 	background-size: cover;
 }
 
-.mywork1 .inner .works .banner3_1 {
+.mywork .inner .works .banner3_1 {
 	background: url(../images/banner3_1.png) no-repeat;
 	background-position: center;
 	background-size: cover;
 }
 
-.mywork1 .inner .works .banner3_2 {
+.mywork .inner .works .banner3_2 {
 	background: url(../images/banner3_2.png) no-repeat;
 	background-position: center;
 	background-size: cover;
 }
-.mywork1 .inner .works .banner3_3 {
+.mywork .inner .works .banner3_3 {
 	background: url(../images/banner3_3.png) no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -457,29 +457,29 @@ progress::-webkit-progress-bar {
 	left: 2.5%;
 }
 
-.mywork1 .inner .works > div:hover .caption {
+.mywork .inner .works > div:hover .caption {
 	opacity: 1;
 	transform: translateY(-100px);
 }
 
-.mywork1 .inner p {
+.mywork .inner p {
 	text-align: center;
 	color: #fff;
 }
 
-.mywork1 .inner .pjt_name {
+.mywork .inner .pjt_name {
 	color: #fff;
 	font-weight: 800;
 	padding-top: 20%;
 	font-size: 20px;
 }
 
-.mywork1 .inner .pjt_name span {
+.mywork .inner .pjt_name span {
 	font-weight: normal;
 	font-size: 16px;
 }
 
-.mywork1 .inner .works .banner2 .pjt_name {
+.mywork .inner .works .banner2 .pjt_name {
 	padding-top: 65%;
 }
 
@@ -755,36 +755,36 @@ progress::-webkit-progress-bar {
 		margin: 0;
 	}
 
-	.mywork1 {
+	.mywork {
 		height: auto;
 	}
 
-	.mywork1 .inner {
+	.mywork .inner {
 		margin: 0 5%;
 	}
-	.mywork1 p {
+	.mywork p {
 		line-height: 1.2;
 	}
 	.caption .more_btn {
 		margin: 10px auto;
 	}
 
-	.mywork1 .inner .pjt_name {
+	.mywork .inner .pjt_name {
 		padding-top: 25%;
 	}
 
-	.mywork1 .inner .works .banner2 .pjt_name {
+	.mywork .inner .works .banner2 .pjt_name {
 		padding-top: 15%;
 	}
 
-	.mywork1 .inner .works {
+	.mywork .inner .works {
 		width: 100%;
 		height: 30.6122vw;
 		float: none;
 		background-position: center bottom;
 	}
 
-	.mywork1 .inner .works .banner2 {
+	.mywork .inner .works .banner2 {
 		height: 40.8163vw;
 		margin-bottom: 3%;
 		float: left;
@@ -828,7 +828,7 @@ progress::-webkit-progress-bar {
 		opacity: 1;
 	}
 
-	.mywork1 .inner .works > div:hover .caption {
+	.mywork .inner .works > div:hover .caption {
 		transform: none;
 	}
 
@@ -875,11 +875,11 @@ progress::-webkit-progress-bar {
 		line-height: 18px;
 	}
 
-	.mywork1 {
+	.mywork {
 		height: 2500px;
 	}
 
-	.mywork1 .inner .works > div {
+	.mywork .inner .works > div {
 		width: 100%;
 		float: left;
 		margin: 0;
@@ -887,11 +887,11 @@ progress::-webkit-progress-bar {
 		min-height: 200px;
 	}
 
-	.mywork1 .inner .pjt_name {
+	.mywork .inner .pjt_name {
 		padding: 8% 0;
 		height: 30%;
 	}
-	.mywork1 .inner .works .banner2 {
+	.mywork .inner .works .banner2 {
 		margin-top: 3%;
 		width: 100%;
 		float: left;
@@ -902,7 +902,7 @@ progress::-webkit-progress-bar {
 	}
 
 	
-	.mywork1 .inner .works .banner2 .pjt_name {
+	.mywork .inner .works .banner2 .pjt_name {
 		padding: 10% 0;
 	}
 
