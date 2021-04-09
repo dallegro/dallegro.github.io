@@ -121,12 +121,18 @@
     			$(".overview").css("display", "block");
     		}
     	});
+		
+		$('form button').click(function(){
+			alert('메일이 발송되었습니다! 감사합니다.');
+		});
 
+/*
 
     	$("form").on("submit", function (event) {
     		event.preventDefault();
     		// submit 리부트 막기
     	});
 
+*/
 
     });

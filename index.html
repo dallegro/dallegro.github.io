@@ -338,29 +338,67 @@
 	</div>
 	<!--about me-->
 	<!--  contact btn popup area-->
+
 	<div class="send">
 		<div class="send_close"><a href="javascript://"><img src="images/x_btn.png" alt="닫기"></a></div>
 		<div class="center">
 			<div class="make_cell">
-				<form>
-					Name <span>*</span><br> <input type="text" name="name" placeholder="이름을 입력하세요"> <br>
-					Company <span>*</span><br><input type="text" name="company" placeholder="소속을 입력하세요"><br>
-					E-mail <span>*</span><br> <input type="text" name="email" placeholder="이메일 및 연락받으실 번호를 입력하세요"><br>
-					Message <span>*</span><br><br> <textarea name="" id="" style="width:100%" rows="10" placeholder="최대 200자까지 입력가능합니다..." maxlength="200"></textarea> <br>
-					<input type="submit" value="Send" class="sendbtn">
+
+				<form class="gform pure-form pure-form-stacked" method="POST" data-email="kimds1599@gmail.com" action="https://script.google.com/macros/s/AKfycbw5oOU2zwG2jzVN1dtBVTap8HdKVRBfpmTo6IVzD3gukhjffD4SD0EdAPZA95c4qzWO/exec">
+
+					<!-- change the form action to your script url -->
+
+
+
+					<div class="form-elements">
+
+						<fieldset class="pure-group">
+
+							<label for="name">Name<span>*</span></label>
+
+							<input id="name" name="name" placeholder="이름을 입력하세요">
+
+						</fieldset>
+
+						<fieldset class="pure-group">
+							<label for="company">Company <span>*</span></label>
+							<input type="text" name="company" placeholder="소속을 입력하세요">
+						</fieldset>
+
+
+						<fieldset class="pure-group">
+
+							<label for="email">E-mail <span>*</span></label>
+							<input id="email" name="email" type="email" value="" required placeholder="your.name@email.com" />
+
+						</fieldset>
+
+
+						<fieldset class="pure-group">
+
+							<label for="message">Message<span>*</span></label>
+
+							<textarea id="message" name="message" style="width:100%" rows="10" placeholder="최대 200자까지 입력가능합니다." maxlength="200"></textarea>
+
+						</fieldset>
+
+						<button type="submit" class="button-success pure-button button-xlarge sendbtn">Send</button>
+					</div>
+
+					<!-- Customise the Thankyou Message People See when they submit the form<span>*</span>-->
+					<!--<div class="thankyou_message" style="display :none;">
+						<p>메일이 발송되었습니다! 감사합니다.</p>
+						</div>-->
 				</form>
+
+				<!-- Submit the Form to Google Using "AJAX" -->
+
+				<script data-cfasync="false" type="text/javascript" src="form-submission-handler.js"></script>
+
+				<!-- END -->
 			</div>
-
 		</div>
-
 	</div>
-	<!--  contact btn popup area-->
-	<!--      dimmed-->
-	<div class="dimmed" style="display: none;"></div>
-	<!--      dimmed-->
+</body>
 
-
-
-
-
-</body></html>
+</html>
