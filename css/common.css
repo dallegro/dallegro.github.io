@@ -30,17 +30,29 @@ header .mobile_gnb{position: absolute; top:20px; right: 5%; width: 43px; height:
 .humbermenu .copyright{font-size: 12px; color: #9c9c9c; position: absolute; bottom: 10%; left:0;right: 0;}
 .humbermenu_on{top: 0; left: 0;}
 
-footer{text-align: center; position: fixed; bottom: 0; left: 0; right: 0; z-index: -9;}
-footer .contact{height: auto; max-height: 400px; }
+footer{text-align: center; position: relative; bottom: 0; left: 0; right: 0; z-index: 1;}
+footer .contact{height: auto; max-height: 500px; }
 footer .label{height: 70px; background: #393939; width: 100%;}
 footer .label p{color: #9c9c9c; line-height: 70px; font-size: 12px;}
 footer .message{width: 184px; height: 32px; border: 1px solid #9d9d9d;color:#9d9d9d; margin: 2%;}
 footer .message:hover{background: #0d347b; color: #fff;border: none;}
-footer .wrapper a{color:#9d9d9d; font-size: 18px; }
+footer .wrapper a{color:#9d9d9d; font-size: 18px;
+word-break:break-all;}
 footer .wrapper a:hover{color:#0d347b;}
-footer .wrapper>div{display: inline-block; margin-right: 5%;}
+footer .wrapper>div{
+/*	outline: 3px solid red;*/
+	display: inline-block; 
+	margin-right: 5%;
+	width: 30%;
+	padding: 10px;
+	box-sizing: border-box;
+	text-align: center;
+	float: left;
+
+}
 footer .wrapper>div:last-child{margin-right: 0;}
-footer .wrapper div img{padding: 10%;}
+footer .wrapper div img{padding: 5%;
+}
 .fake_area{width: 100%; height: 25vw; min-height: 400px; max-height: 450px; z-index: -999; position: absolute;}
 
 aside {position: fixed; right:30px; bottom: 40px;}
@@ -67,6 +79,11 @@ aside {position: fixed; right:30px; bottom: 40px;}
    .humbermenu_on .menu_list{top:10%;}
    .humbermenu_on .menu_list li{width: 100%; margin: 0 auto; text-align: left; padding: 0;}
    .humbermenu_on .menu_list li a{clear: both; font-size: 40px;margin: 2%;}
+	div.wrapper>div p>a{
+	letter-spacing: -1px;
+	font-size: 0.9rem;
+	
+}
 }
 
 
