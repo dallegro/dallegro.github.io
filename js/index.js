@@ -16,32 +16,32 @@
     	$(document).scroll(function () {
     		var changeColor = $(document).scrollTop();
     		var scroll = $(document).scrollTop();
-
-    		if (scroll > 780) {
+			//console.log('스크롤값'+scroll);
+    		if (scroll > 880) {
     			$("#pro1").delay(500);
     			$("#pro2").delay(1000);
     			$("#pro3").delay(1500);
     			$("#pro4").delay(2000);
     			$("#pro5").delay(2500);
-    			$("#pro6").delay(2500);
+    			$("#pro6").delay(3000);
 
     			$("#pro1").animate({
-    				"value": 90
+    				"value": 95
     			});
     			$("#pro2").animate({
     				"value": 90
     			});
     			$("#pro3").animate({
-    				"value": 80
+    				"value": 87
     			});
     			$("#pro4").animate({
-    				"value": 85
-    			});
-    			$("#pro5").animate({
     				"value": 90
     			});
+    			$("#pro5").animate({
+    				"value": 85
+    			});
     			$("#pro6").animate({
-    				"value": 95
+    				"value": 90
     			});
     		} //progress 
 
@@ -58,14 +58,20 @@
     			$(".contact .title").addClass('colorChange');
     		} //타이틀 컬러변경
     	});
-
-
-    	$(".top_btn").click(function () {
-    		$('html, body').animate({
+		
+    	$(".top_btn").click(function (e) {
+			e.preventDefault();
+    		$('html, body').stop().animate({
     			scrollTop: 0
     		}, 700);
     	}); // pagetop scroll animate
-
+		
+		$('.scroll').click(function(e){
+			e.preventDefault();
+				$('html, body').stop().animate({
+    			scrollTop:  "+800px"
+    		}, 700);
+		})
 
     	$(".mobile_gnb").click(function () {
     		$(".humbermenu").addClass("humbermenu_on");
@@ -82,9 +88,7 @@
     			var scrollPosition2 = $($(this).attr("href")).offset().top;
     			$('html, body').animate({
     				scrollTop: scrollPosition2
-    			}, 800);
-
-
+    			}, 300);
     		});
     	}); //gnb full 
 
@@ -97,46 +101,6 @@
     		$(".aboutme_more").removeClass("on2");
     	}); //aboutme pop
 
-
-
-    	$(".banner4").click(function () {
-    		$(".work_pop6").addClass("on");
-    		$(".dimmed").fadeIn(300);
-    	});
-
-    	$(".banner5").click(function () {
-    		$(".work_pop7").addClass("on");
-    		$(".dimmed").fadeIn(300);
-    	});
-
-    	$(".banner6").click(function () {
-    		$(".work_pop8").addClass("on");
-    		$(".dimmed").fadeIn(300);
-    	});
-
-
-    	$(".banner7").click(function () {
-    		$(".work_pop9").addClass("on");
-    		$(".dimmed").fadeIn(300);
-    	});
-
-    	$(".banner8").click(function () {
-    		$(".work_pop10").addClass("on");
-    		$(".dimmed").fadeIn(300);
-    	});
-
-    	$(".banner9").click(function () {
-    		$(".work_pop11").addClass("on");
-    		$(".dimmed").fadeIn(300);
-    	});
-
-    	// work2 banner pop-up
-
-
-    	$(".banner_close").click(function () {
-    		$(".pop_base").removeClass("on");
-    		$(".dimmed").fadeOut(300);
-    	}); //work2 banner pop-close
 
     	$(".message").click(function () {
     		$(".send").addClass("send_move");
