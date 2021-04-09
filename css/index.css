@@ -270,8 +270,12 @@ progress::-webkit-progress-bar {
 	top: 20px;
 	right: 5%;
 	cursor: pointer;
+	transition: all 0.5s ease-in-out;
+	
 }
-
+.x_btn:hover{
+	transform: rotate(180deg);
+}
 .profile_img,
 .profile_wrap {
 	width: 50%;
@@ -598,7 +602,11 @@ progress::-webkit-progress-bar {
 	position: absolute;
 	right: 5%;
 	top: 5%;
+	transition: all 0.5s ease-in-out;
 	
+}
+.send .send_close:hover{
+	transform: rotate(180deg);
 }
 
 .send_move {
@@ -608,11 +616,6 @@ progress::-webkit-progress-bar {
 }
 
 /*form*/
-
-
-
-
-
 /* - - -  media qurey  - - - */
 
 /* 980px teblet */
@@ -837,6 +840,7 @@ progress::-webkit-progress-bar {
 		padding: 5%;
 		box-sizing: border-box;
 	}
+	
 }
 
 
@@ -876,7 +880,7 @@ progress::-webkit-progress-bar {
 	}
 
 	.mywork {
-		height: 2500px;
+		height: 2350px;
 	}
 
 	.mywork .inner .works > div {
@@ -950,5 +954,7 @@ progress::-webkit-progress-bar {
 		right: 0;
 		top: 5%;
 	}
+
+
 
 }
