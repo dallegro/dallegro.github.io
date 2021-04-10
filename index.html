@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- saved from url=(0028)/ -->
-<html>
+<html lang="ko">
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -21,6 +21,16 @@
 	<meta property="og:image" content="images/loading.gif">
 	<meta property="og:url" content="">
 	<script src="js/jquery-latest.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+	<script type="text/javascript">
+		(function() {
+			emailjs.init("user_T3nJCiraHpJ2GwywEvF6m");
+		})();
+	</script>
+	<script type="text/javascript">
+		
+	</script>
+
 	<script src="js/index.js"></script>
 	<link rel="stylesheet" href="css/base.css">
 	<link rel="stylesheet" href="css/index.css">
@@ -38,8 +48,8 @@
 
 	<div id="wrap">
 		<header class="clearfix">
-			<a href="#">
-				<h1 class="logo">김다슬의 포트폴리오</h1>
+			<a href="#" class="logo">
+				<h1>김다슬의 포트폴리오</h1>
 			</a>
 			<div class="inner">
 				<nav>
@@ -94,7 +104,8 @@
 				<div class="intro">
 					<div class="con_wrap">
 						<div class="hello_img"><img src="images/hello_img.png" alt="Hello, world!"></div>
-						<p class="text"> 안녕하세요. 신입 웹 프론트엔드 개발자 김다슬입니다.<br> 소중한 시간을 내어 제 포트폴리오 사이트에 방문해 주셔서 감사합니다 : )<br><br> 강남대학교 회화디자인학부에서 서양화와 산업디자인을 복수전공 하였고 <br>재학 중 웹디자인 수업을 통해 HTML과 CSS를 처음 접하게 되었습니다.<br>이후 코딩에 재미가 붙어 컴공과 웹개발 수업을 들으며<br> 웹표준, 웹 접근성과 JS, jQuery를 접했고 프론트엔드 개발자로서 갖춰야할 기본 소양을 갖추려 열심히 공부했습니다. <br><br>졸업 후 UI/UX 반응형 웹퍼블리셔 5개월 양성과정 이수하며 실무에서 잘 쓸 수 있도록 그동안 배운 것들을 내 것으로 만드려 노력하였습니다.<br> 이번 21년 4월달 중순부터 매주 주말 React.JS 수업을 들을 예정입니다. <br>아직 화려한 스킬이나 완벽한 역량을 갖추지 않았지만 <br><span>무엇보다 재미있고, 잘 할 수 있고, 잘 하게 될 것이라는 확신과 열정</span>으로 끊임없이 공부하고 있습니다.<br><br>졸업과 동시에 새로운 출발을 앞둔 지금 많이 설레고 긴장되지만 <br> 항상 '즐겁게 일하되 배움을 게을리하지 않는 사람이 되자'를 모토로 빠르게 변화하는 트렌드에 발 맞춰 성장하는 사람이 되겠습니다. <br> <br> 더 자세한 프로필을 확인하고 싶으시다면, 아래 버튼을 눌러주세요! <br> 끝까지 읽어주셔서 감사합니다 : )</p> <button class="intro_more">more</button>
+						<p class="text"> 안녕하세요. 신입 웹 프론트엔드 개발자 김다슬입니다.<br> 소중한 시간을 내어 제 포트폴리오 사이트에 방문해 주셔서 감사합니다 : )<br><br> 강남대학교 회화디자인학부에서 서양화와 산업디자인을 복수전공 하였고 <br>재학 중 웹디자인 수업을 통해 HTML과 CSS를 처음 접하게 되었습니다.<br>이후 코딩에 재미가 붙어 컴공과 웹개발 수업을 들으며<br> 웹표준, 웹 접근성과 JS, jQuery를 접했고 프론트엔드 개발자로서 갖춰야할 기본 소양을 갖추려 열심히 공부했습니다. <br><br>졸업 후 UI/UX 반응형 웹퍼블리셔 5개월 양성과정 이수하며 실무에서 잘 쓸 수 있도록 그동안 배운 것들을 내 것으로 만드려 노력하였습니다.<br> 이번 21년 4월달 중순부터 매주 주말 React.JS 수업을 들을 예정입니다. <br>아직 화려한 스킬이나 완벽한 역량을 갖추지 않았지만 <br><span>무엇보다 재미있고, 잘 할 수 있고, 잘 하게 될 것이라는 확신과 열정</span>으로 끊임없이 공부하고 있습니다.<br><br>졸업과 동시에 새로운 출발을 앞둔 지금 많이 설레고 긴장되지만 <br> 항상 '즐겁게 일하되 배움을 게을리하지 않는 사람이 되자'를 모토로 빠르게 변화하는 트렌드에 발 맞춰 성장하는 사람이 되겠습니다. <br> <br> 더 자세한 프로필을 확인하고 싶으시다면, 아래 버튼을 눌러주세요! <br> 끝까지 읽어주셔서 감사합니다 : )</p>
+						<button class="intro_more">more</button>
 					</div>
 				</div>
 				<div class="skill">
@@ -340,65 +351,48 @@
 	<!--  contact btn popup area-->
 
 	<div class="send">
-		<div class="send_close"><a href="javascript://"><img src="images/x_btn.png" alt="닫기"></a></div>
+		<div class="send_close">
+				<img src="images/x_btn.png" alt="닫기">
+		</div>
+
 		<div class="center">
 			<div class="make_cell">
 
-				<form class="gform pure-form pure-form-stacked" method="POST" data-email="kimds1599@gmail.com" action="https://script.google.com/macros/s/AKfycbw5oOU2zwG2jzVN1dtBVTap8HdKVRBfpmTo6IVzD3gukhjffD4SD0EdAPZA95c4qzWO/exec">
+				<form id="contactForm" name="data" target="_self" onsubmit="closePop()">
+					<div>
 
-					<!-- change the form action to your script url -->
-
-
-
-					<div class="form-elements">
-
-						<fieldset class="pure-group">
-
+						<input type="hidden" name="contact_number">
+						<fieldset>
 							<label for="name">Name<span>*</span></label>
-
-							<input id="name" name="name" placeholder="이름을 입력하세요">
-
+							<input type="text" name="name" placeholder="성함을 입력해주세요">
 						</fieldset>
 
-						<fieldset class="pure-group">
+						<fieldset>
 							<label for="company">Company <span>*</span></label>
-							<input type="text" name="company" placeholder="소속을 입력하세요">
+							<input type="text" name="company" placeholder="소속을 입력해주세요">
 						</fieldset>
 
-
-						<fieldset class="pure-group">
-
+						<fieldset>
 							<label for="email">E-mail <span>*</span></label>
-							<input id="email" name="email" type="email" value="" required placeholder="your.name@email.com" />
-
+							<input type="text" name="email" placeholder="메일 주소를 입력해주세요">
+						</fieldset>
+						<fieldset>
+							<label for="phone">Phone</label>
+							<input type="text" name="phone" placeholder="연락처를 입력해주세요">
 						</fieldset>
 
-
-						<fieldset class="pure-group">
-
+						<fieldset>
 							<label for="message">Message<span>*</span></label>
-
-							<textarea id="message" name="message" style="width:100%" rows="10" placeholder="최대 200자까지 입력가능합니다." maxlength="200"></textarea>
-
+							<textarea name="message" style="width:100%" rows="10" placeholder="최대 200자까지 입력가능합니다." maxlength="200"></textarea>
 						</fieldset>
+						<button class="sendbtn" onclick="return check() closePop()" >Send</button>
 
-						<button type="submit" class="button-success pure-button button-xlarge sendbtn">Send</button>
 					</div>
-
-					<!-- Customise the Thankyou Message People See when they submit the form<span>*</span>-->
-					<!--<div class="thankyou_message" style="display :none;">
-						<p>메일이 발송되었습니다! 감사합니다.</p>
-						</div>-->
 				</form>
-
-				<!-- Submit the Form to Google Using "AJAX" -->
-
-				<script data-cfasync="false" type="text/javascript" src="form-submission-handler.js"></script>
-
-				<!-- END -->
 			</div>
 		</div>
-	</div>
-</body>
 
-</html>
+	</div>
+	<!-- END -->
+
+</body></html>

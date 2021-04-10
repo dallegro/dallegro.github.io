@@ -8,6 +8,9 @@
 
 .colorChange {
 	color: #0d347b;
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	-o-transition: 1s;
 	transition: 1s;
 	transform: translateY(10px);
 }
@@ -36,7 +39,12 @@
 	min-width: 200px;
 	min-height: 200px;
 	background: #0d347b;
-	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	-ms-border-radius: 50%;
+
+
 	position: absolute;
 }
 
@@ -109,14 +117,16 @@
 	margin-left: -102px;
 }
 
-.top_btn{
+.top_btn {
 	z-index: 999;
 }
+
 .about {
 	width: 100%;
 	height: auto;
 	max-height: 1080px;
 	background: linear-gradient(90deg, #fff 50%, #fafafa 50%);
+
 	padding-bottom: 5%;
 }
 
@@ -172,7 +182,11 @@ progress {
 	height: 10px;
 	width: 400px;
 	display: inline-block;
-	border-radius: 5px;
+
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-ms-border-radius: 5px;
 	border: none;
 }
 
@@ -210,22 +224,28 @@ progress::-webkit-progress-bar {
 
 #pro4,
 #pro5,
-#pro6{
+#pro6 {
 	margin-top: 20px;
 }
 
-.about .intro_more {
+.about button.intro_more {
 	width: 90px;
 	height: 30px;
 	border: 1px solid #9d9d9d;
 	color: #9d9d9d;
+	background-color: #fff;
 	margin-top: 5%;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
 }
 
-.about .intro_more:hover {
+.about button.intro_more:hover {
 	background: #0d347b;
 	color: #fff;
-	border: none;
+	border-color: #0d347b;
+	/*	border: none;*/
 }
 
 .about .skill .con_wrap {
@@ -249,6 +269,9 @@ progress::-webkit-progress-bar {
 	z-index: 999;
 	overflow-y: scroll;
 	max-height: 100%;
+	-webkit-overflow-style: none;
+	-moz-overflow-style: none;
+	-o-overflow-style: none;
 	-ms-overflow-style: none;
 }
 
@@ -270,12 +293,17 @@ progress::-webkit-progress-bar {
 	top: 20px;
 	right: 5%;
 	cursor: pointer;
-	transition: all 0.5s ease-in-out;
-	
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	-ms-transition: all .5s ease-in-out;
+
 }
-.x_btn:hover{
+
+.x_btn:hover {
 	transform: rotate(180deg);
 }
+
 .profile_img,
 .profile_wrap {
 	width: 50%;
@@ -340,19 +368,20 @@ progress::-webkit-progress-bar {
 }
 
 .mywork .inner {
-/*	outline: 3px solid lime;*/
+	/*	outline: 3px solid lime;*/
 	max-width: 1440px;
 	margin: 0 auto;
 	min-width: 300px;
 }
 
 .mywork .inner .works {
-/*	outline: 3px solid green;*/
+	/*	outline: 3px solid green;*/
 	width: 32%;
 	height: 1000px;
 	float: left;
 	margin-right: 2%;
 }
+
 .mywork .inner .works > div {
 	background: #ffc5c5;
 }
@@ -374,65 +403,94 @@ progress::-webkit-progress-bar {
 .banner1_3,
 .banner3_1,
 .banner3_2,
-.banner3_3{
-/*	outline: 3px solid blue;*/
-/*	height: 49%;*/
+.banner3_3 {
+	/*	outline: 3px solid blue;*/
+	/*	height: 49%;*/
 	height: 32.4%;
 	width: 100%;
 	margin-bottom: 3%;
 }
 
 .banner2 {
-/*	outline: 3px solid Red;*/
+	/*	outline: 3px solid Red;*/
 	width: 100%;
 	height: 100%;
-/*	float: left;*/
+	/*	float: left;*/
 }
 
 .banner1_3,
 .banner3_3 {
-/*	outline: 3px solid pink;*/
+	/*	outline: 3px solid pink;*/
 	margin-bottom: 0;
 }
 
 .mywork .inner .works .banner1_1 {
 	background: url(../images/banner1.png) no-repeat;
 	background-position: center;
-	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+
+
+
+
 }
 
 .mywork .inner .works .banner1_2 {
 	background: url(../images/banner1_2.png) no-repeat;
 	background-position: center;
-	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
 }
+
 .mywork .inner .works .banner1_3 {
 	background: url(../images/banner1_3.png) no-repeat;
 	background-position: center;
-	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
 }
+
 .mywork .inner .works .banner2 {
 	background: url(../images/banner2.png) no-repeat;
 	background-position: center top;
-	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
 }
 
 .mywork .inner .works .banner3_1 {
 	background: url(../images/banner3_1.png) no-repeat;
 	background-position: center;
-	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
 }
 
 .mywork .inner .works .banner3_2 {
 	background: url(../images/banner3_2.png) no-repeat;
 	background-position: center;
-	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
 }
+
 .mywork .inner .works .banner3_3 {
 	background: url(../images/banner3_3.png) no-repeat;
 	background-position: center;
-	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
 }
+
 .caption {
 	position: absolute;
 	top: 100px;
@@ -440,7 +498,10 @@ progress::-webkit-progress-bar {
 	height: 100%;
 	background: rgba(150, 2, 2, 0.9);
 	opacity: 0;
-	transition: all 0.3s cubic-bezier(.42, 0, .58, 1);
+	-webkit-transition: all 0.3s cubic-bezier(.42, 0, .58, 1);
+	-moz-transition: all 0.3s cubic-bezier(.42, 0, .58, 1);
+	-o-transition: all 0.3s cubic-bezier(.42, 0, .58, 1);
+	-ms-transition: all 0.3s cubic-bezier(.42, 0, .58, 1);
 	z-index: 10;
 }
 
@@ -489,6 +550,7 @@ progress::-webkit-progress-bar {
 
 .caption .more {
 	text-align: center;
+
 }
 
 .caption .more a {
@@ -498,6 +560,10 @@ progress::-webkit-progress-bar {
 	line-height: 30px;
 	font-size: 14px;
 	padding: 6px 20px;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
 }
 
 .caption .more a:hover {
@@ -553,24 +619,35 @@ progress::-webkit-progress-bar {
 
 /*form*/
 .make_cell {
+	/*	outline: 3px solid red;*/
 	display: table-cell;
 	height: 100%;
 	vertical-align: middle;
 }
 
 .send {
-	width: 440px;
-	height: 520px;
+	/*	outline: 3px solid red;*/
+
+	width: 360px;
+	height: 550px;
 	background: #fff;
-	box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.19);
+
+	-webkit-box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.19);
+	-moz-box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.19);
+	-o-box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.19);
+	-ms-box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.19);
+
+
 	position: fixed;
 	top: 100%;
-	left: 100%;
+	left: 50%;
 	z-index: 999;
+	transform: translateX(10%);
+
 }
 
 .send .center {
-	width: 280px;
+	width: 300px;
 	margin: 0 auto;
 	color: #4e4e4e;
 	font-size: 12px;
@@ -579,10 +656,13 @@ progress::-webkit-progress-bar {
 }
 
 .send .center input {
-	margin-bottom: 20px;
+	margin-bottom: 15px;
 	width: 100%;
-	border: none;
-	box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	-o-box-shadow: none;
+	-ms-box-shadow: none;
+
 	border-bottom: 1px solid rgb(180, 180, 180);
 }
 
@@ -597,19 +677,36 @@ progress::-webkit-progress-bar {
 	margin-bottom: 0;
 	background: #0d347b;
 	color: #fff;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+
 }
-.send .center button.sendbtn:hover{
+
+.send .center button.sendbtn:hover {
 	color: #0d347b;
-	background:#ededed;
+	background: #ededed;
 }
+
 .send .send_close {
+	cursor: pointer;
 	position: absolute;
-	right: 5%;
+	right: 3%;
 	top: 5%;
-	transition: all 0.5s ease-in-out;
-	
 }
-.send .send_close:hover{
+
+.send .send_close img {
+	width: 60%;
+	display: block;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	-ms-transition: all .5s ease-in-out;
+
+}
+
+.send .send_close:hover img {
 	transform: rotate(180deg);
 }
 
@@ -769,9 +866,11 @@ progress::-webkit-progress-bar {
 	.mywork .inner {
 		margin: 0 5%;
 	}
+
 	.mywork p {
 		line-height: 1.2;
 	}
+
 	.caption .more_btn {
 		margin: 10px auto;
 	}
@@ -805,7 +904,7 @@ progress::-webkit-progress-bar {
 
 	.banner1_1,
 	.banner1_2,
-	.banner1_3{
+	.banner1_3 {
 		height: 100%;
 		float: left;
 		margin-right: 2%;
@@ -814,7 +913,7 @@ progress::-webkit-progress-bar {
 
 	.banner3_1,
 	.banner3_2,
-	.banner3_3{
+	.banner3_3 {
 		height: 100%;
 		float: right;
 		margin-right: 2%;
@@ -844,7 +943,11 @@ progress::-webkit-progress-bar {
 		padding: 5%;
 		box-sizing: border-box;
 	}
-	
+
+	.send {
+		transform: translateX(13%);
+	}
+
 }
 
 
@@ -899,6 +1002,7 @@ progress::-webkit-progress-bar {
 		padding: 8% 0;
 		height: 30%;
 	}
+
 	.mywork .inner .works .banner2 {
 		margin-top: 3%;
 		width: 100%;
@@ -909,7 +1013,7 @@ progress::-webkit-progress-bar {
 		min-height: 200px;
 	}
 
-	
+
 	.mywork .inner .works .banner2 .pjt_name {
 		padding: 10% 0;
 	}
@@ -943,7 +1047,13 @@ progress::-webkit-progress-bar {
 
 	.send {
 		width: 320px;
-		height: 500px;
+		height: 550px;
+
+		transform: translateX(00%);
+	}
+
+	.send .center {
+		width: 260px;
 	}
 
 	.send_move {
