@@ -358,7 +358,7 @@
 		<div class="center">
 			<div class="make_cell">
 
-				<form id="contactForm" name="data" target="_self" onsubmit="closePop()">
+				<form id="contactForm" name="data" target="_self">
 					<div>
 
 						<input type="hidden" name="contact_number">
@@ -385,7 +385,7 @@
 							<label for="message">Message<span>*</span></label>
 							<textarea name="message" style="width:100%" rows="10" placeholder="최대 200자까지 입력가능합니다." maxlength="200"></textarea>
 						</fieldset>
-						<button class="sendbtn" onclick="return check() closePop()" >Send</button>
+						<button class="sendbtn" onclick="return check()" >Send</button>
 
 					</div>
 				</form>
