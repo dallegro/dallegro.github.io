@@ -17,34 +17,58 @@
 }
 
 .loading {
-	width: 100%;
+position: fixed;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+	z-index: 9999;
+	text-align: center;
+/*	opacity: 0.7;*/
+	background: url(../images/intro_bg.jpg)no-repeat center/cover;
+}
+.loading button{
+	display: inline-block; 
 	height: 100%;
-	background: #fff;
-	position: fixed;
-	left: 0;
-	top: 0;
-	z-index: 1000;
+	content:""; 
+	vertical-align: middle;
+}
+#loadAM {
+	height: 60vmin;
+	vertical-align:middle;
+	pointer-events: none;
+	animation: circle infinite 20s linear;
+}
+@keyframes circle {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#black {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 50;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
 }
 
-.loading img {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	margin-left: -120.5px;
-	margin-top: -120.5px;
-}
-
-.dimmed {
-	position: fixed;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	background: rgba(0, 0, 0, 0.33);
-	z-index: 800;
+#dimmed {
 	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 800;
+	width: 100%;
+	height: 100%;
+/*	bottom: 0;*/
+/*	right: 0;*/
+	background: rgba(0, 0, 0, 0.33);
 }
 
 .inner {

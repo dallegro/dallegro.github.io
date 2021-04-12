@@ -18,7 +18,7 @@
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="Daseul's Portfolio">
 	<meta property="og:description" content="포트폴리오 전용 웹 사이트입니다.">
-	<meta property="og:image" content="images/loading.gif">
+	<meta property="og:image" content="images/intro.jpg">
 	<meta property="og:url" content="">
 	<script src="js/jquery-latest.min.js"></script>
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
@@ -28,7 +28,7 @@
 		})();
 	</script>
 	<script type="text/javascript">
-		
+
 	</script>
 
 	<script src="js/index.js"></script>
@@ -40,13 +40,13 @@
 
 <body>
 	<!--  loading-->
-	<div class="loading" style="display: none;">
-		<img src="images/loading.gif" alt="loaing...">
+	<div class="loading">
+		<button><img id="loadAM" src="images/circle_.png" alt="loading"></button>
 	</div>
 	<!--  loading-->
 
-
-	<div id="wrap">
+<section>
+	<div id="wrap" >
 		<header class="clearfix">
 			<a href="#" class="logo">
 				<h1>김다슬의 포트폴리오</h1>
@@ -262,7 +262,7 @@
 					</div>
 					<div class="resume">
 						<img src="images/download.png" alt="이력서 다운로드">
-						<p><a href="file/%EA%B9%80%EB%8B%A4%EC%8A%AC_%EC%9D%B4%EB%A0%A5%EC%84%9C.pdf" download>이력서.pdf</a></p>
+						<p><a href="file/김다슬_프론트엔드_개발자_입사지원서.pdf" download>이력서.pdf</a></p>
 					</div>
 				</div>
 				<button class="message">+ Send message</button>
@@ -352,7 +352,7 @@
 
 	<div class="send">
 		<div class="send_close">
-				<img src="images/x_btn.png" alt="닫기">
+			<img src="images/x_btn.png" alt="닫기">
 		</div>
 
 		<div class="center">
@@ -385,7 +385,7 @@
 							<label for="message">Message<span>*</span></label>
 							<textarea name="message" style="width:100%" rows="10" placeholder="최대 200자까지 입력가능합니다." maxlength="200"></textarea>
 						</fieldset>
-						<button class="sendbtn" onclick="return check()" >Send</button>
+						<button class="sendbtn" onclick="return check()">Send</button>
 
 					</div>
 				</form>
@@ -395,4 +395,5 @@
 	</div>
 	<!-- END -->
 
+</section>
 </body></html>

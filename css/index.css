@@ -632,10 +632,10 @@ progress::-webkit-progress-bar {
 	height: 550px;
 	background: #fff;
 
-	-webkit-box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.19);
-	-moz-box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.19);
-	-o-box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.19);
-	-ms-box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.19);
+	-webkit-box-shadow: 1px 1px 50px 10px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 1px 1px 50px 10px rgba(0, 0, 0, 0.1);
+	-o-box-shadow: 1px 1px 50px 10px rgba(0, 0, 0, 0.1);
+	-ms-box-shadow: 1px 1px 50px 10px rgba(0, 0, 0, 0.1);
 
 
 	position: fixed;
@@ -692,8 +692,8 @@ progress::-webkit-progress-bar {
 .send .send_close {
 	cursor: pointer;
 	position: absolute;
-	right: 3%;
-	top: 5%;
+	right: 1%;
+	top: 3%;
 }
 
 .send .send_close img {
