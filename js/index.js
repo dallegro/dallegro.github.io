@@ -81,6 +81,10 @@
  }
 
  $(document).ready(function () {
+ 	setTimeout(function () {
+ 		$('html, body').scrollTop(0);
+ 	}, 1000);
+
  	$(".loading").delay(1000).fadeOut();
  	//loading 
  	$(".gnb li a").click(function () {

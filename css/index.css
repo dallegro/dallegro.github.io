@@ -498,10 +498,10 @@ progress::-webkit-progress-bar {
 	height: 100%;
 	background: rgba(150, 2, 2, 0.9);
 	opacity: 0;
-	-webkit-transition: all 0.3s cubic-bezier(.42, 0, .58, 1);
-	-moz-transition: all 0.3s cubic-bezier(.42, 0, .58, 1);
-	-o-transition: all 0.3s cubic-bezier(.42, 0, .58, 1);
-	-ms-transition: all 0.3s cubic-bezier(.42, 0, .58, 1);
+	-webkit-transition: all 0.5s cubic-bezier(.42, 0, .58, 1);
+	-moz-transition: all 0.5s cubic-bezier(.42, 0, .58, 1);
+	-o-transition: all 0.5s cubic-bezier(.42, 0, .58, 1);
+	-ms-transition: all 0.5s cubic-bezier(.42, 0, .58, 1);
 	z-index: 10;
 }
 
