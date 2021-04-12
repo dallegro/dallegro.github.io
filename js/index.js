@@ -1,6 +1,7 @@
  $(window).load(function () {
- 	$(".loading").fadeOut("slow");
+ 	$(".loading").fadeOut(1000,function(){
 	 $("section").fadeIn("slow");
+	});
 
  });
 
